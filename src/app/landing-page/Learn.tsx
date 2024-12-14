@@ -2,13 +2,19 @@ import Ellipse from "@/icons/dot";
 import "../../styles/learnfountain.css";
 import Image from "next/image";
 import Link from "next/link";
+import img from "../../images/manHoldingDrink.png";
 import { largeDrink, mediumDrink, smallDrink } from "@/images";
-import { small } from "framer-motion/client";
 
 const Learn = () => {
     return (
 
-    <section className="learn">
+    <section className="learn" style={{
+          backgroundImage: `url(${img.src})`,
+          backgroundSize: 'cover', 
+          backgroundPosition: 'center', 
+          backgroundRepeat: 'no-repeat',
+          zIndex: -1, 
+        }}>
         <div className="learn__title">
             <h1 className="learn__title_text">Fuel Your Day with Carabao</h1>
         </div>
