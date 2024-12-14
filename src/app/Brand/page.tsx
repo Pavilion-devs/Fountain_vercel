@@ -3,6 +3,7 @@ import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
 import Footer from "../landing-page/Footer";
 import '../../styles/all-brands.css';
+import img from "../../images/brandBackgroundImage.jpeg";
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import { askamaya, blenco, chandever, chopilos, clubLogo, drinkPack, ebeano, founder, four, journey, libraryLogo, one, passion, ritz, secretPalace, shoprite, star, teamImage, three, two, vodaBeach } from "@/images";
 import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
@@ -11,7 +12,8 @@ import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
 const Brand = () => {
   return (
     <section>
-      <div className="brand">
+      <div className="brand" style={{ backgroundImage: `url(${img.src})`,
+          }}>
         <Normalnavbar />
         <div className="brand__container">
           <div className="brand__content">
