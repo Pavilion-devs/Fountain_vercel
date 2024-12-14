@@ -11,6 +11,7 @@ const Hero = () => {
     <section className="hero" style={{
       backgroundImage: `url(${img.src})`, 
       backgroundSize: 'cover', 
+      filter: 'brightness(50%)',
       backgroundPosition: 'center', 
       backgroundRepeat: 'no-repeat',
       zIndex: -1,
