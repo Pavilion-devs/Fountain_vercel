@@ -18,7 +18,8 @@ const Brand = () => {
           backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
           backgroundSize: 'cover', // Correct camelCase property
           backgroundPosition: 'center', // Correct camelCase property
-          backgroundRepeat: 'no-repeat', // Correct camelCase property
+          backgroundRepeat: 'no-repeat',
+          filter: 'brightness(50%)',
           zIndex: -1, // Correct camelCase property
           }}>
         <Normalnavbar />
