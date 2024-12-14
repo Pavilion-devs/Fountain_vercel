@@ -12,6 +12,7 @@ const FountainFamily = () => {
           backgroundImage: `url(${img.src})`,
           backgroundSize: 'cover', 
           backgroundPosition: 'center', 
+          filter: brightness(50%),
           backgroundRepeat: 'no-repeat',
           zIndex: -1, 
         }}>
