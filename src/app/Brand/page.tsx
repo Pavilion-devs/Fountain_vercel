@@ -12,17 +12,12 @@ import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
 const Brand = () => {
   return (
     <section>
-      <div className="brand" style={{ backgroundImage: `url(${img.src})`,
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background-size: cover,
-          background-position: center,
-          background-repeat: no-repeat,
-          filter: brightness(50%),
-          z-index: -1,
+      <div className="brand" style={{
+          backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+          backgroundSize: 'cover', // Correct camelCase property
+          backgroundPosition: 'center', // Correct camelCase property
+          backgroundRepeat: 'no-repeat', // Correct camelCase property
+          zIndex: -1, // Correct camelCase property
           }}>
         <Normalnavbar />
         <div className="brand__container">
