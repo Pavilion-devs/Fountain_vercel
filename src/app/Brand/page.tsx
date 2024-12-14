@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
 import Footer from "../landing-page/Footer";
+import imgfirst from "../../images/movement_1.jpeg";
+import imgsecond from "../../images/movement_2.jpeg";
 import '../../styles/all-brands.css';
 import img from "../../images/brandBackgroundImage.jpeg";
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
@@ -150,7 +152,13 @@ const Brand = () => {
 
                                         {/* BRAND MOVEMENT */}
       <div className="brand__movement">
-        <div className="brand__movement_first">
+        <div className="brand__movement_first" style={{
+                    backgroundImage: `url(${imgfirst.src})`, // Correct way to reference the imported image
+                    backgroundSize: 'cover', // Correct camelCase property
+                    backgroundPosition: 'center', // Correct camelCase property
+                    backgroundRepeat: 'no-repeat', // Correct camelCase property
+                    zIndex: -1, // Correct camelCase property
+                  }}>
           <div className="brand__movement_first_container">
             <div className="brand__movement_first_container_header">
               <span className="line"></span>
@@ -162,7 +170,13 @@ const Brand = () => {
             </div>
           </div>
         </div>
-        <div className="brand__movement_second">
+        <div className="brand__movement_second style={{
+                    backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
+                    backgroundSize: 'cover', // Correct camelCase property
+                    backgroundPosition: 'center', // Correct camelCase property
+                    backgroundRepeat: 'no-repeat', // Correct camelCase property
+                    zIndex: -1, // Correct camelCase property
+                  }}">
           <div className="brand__movement_second_container">
             <div className="brand__movement_second_container_header">
               <span className="line"></span>
