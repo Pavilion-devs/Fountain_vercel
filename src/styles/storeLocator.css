@@ -41,6 +41,7 @@
 .search_field_input{
     border: none;
     outline: none;
+    background: transparent;
     font-size: 18px;
     font-family: "Montserrat Alternates", sans-serif;
 }

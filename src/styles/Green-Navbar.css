@@ -90,6 +90,9 @@
     .navbar__cta {
       display: flex;
       align-items: center;
-      /* gap: 10px; */
+      margin-right: 10px;
+    }
+    .navbar__cta-btn {
+      margin-right: 0px;
     }
   }

@@ -129,6 +129,7 @@
     .hero{
         height: 100%;
         padding: 50px 20px;
+        margin-bottom: 50px;
     }
     .hero__title{
         font-size: 2rem;

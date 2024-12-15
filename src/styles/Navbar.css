@@ -75,6 +75,10 @@ display: none;
   .land-navbar{
     padding: 10px 15px;
   }
+  .land-navbar-img{
+    width: 132px;
+    height: 28.64px;
+  }
   #user_icon{
     display: none;
   }
