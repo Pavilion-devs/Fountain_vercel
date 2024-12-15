@@ -47,6 +47,8 @@ import distributorBackgroundImage from "./distributorBackgroundImage.jpeg"
 import storeBackgroundImage from "./storeimage.jpeg"
 import carabaoInfluencerImage from "./Fountain hero copy 1.png"
 import star from "./Star 1.png"
+import cartImage from "./cartImage.png"
+import singleCarabaoDrink from "./singleCarabaoDrink.png"
 import serviceMobileImage from "./Rectangle 4395.png"
 import handshaking from "./handshaking.png"
 import teamImage from "./team_image.jpeg"
@@ -58,12 +60,14 @@ export {
     distributorBackgroundImage,
     arrowUp,
     serviceMobileImage,
+    singleCarabaoDrink,
     coupleHoldingdrinks,
     carabaoInfluencerImage,
     star,
     handshaking,
     one,
     two,
+    cartImage,
     storeBackgroundImage,
     three,
     askamaya,

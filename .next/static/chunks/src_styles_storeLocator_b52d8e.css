@@ -47,6 +47,7 @@
 .search_field_input {
   border: none;
   outline: none;
+  background: none;
   font-size: 18px;
   font-family: Montserrat Alternates, sans-serif;
 }

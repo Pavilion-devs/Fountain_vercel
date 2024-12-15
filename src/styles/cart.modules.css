@@ -1,16 +1,65 @@
-.cart-real{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap');
+
+
+.cart{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    padding: 80px 30px;
 }
-.cart-real__container{
+.cart_container{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
+}
+.cart-names-identity{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+    display: flex;
     gap: 10px;
+}
+.cart-names-identity a{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cart_container h1{ 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.36px;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+.cart_container p{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.cart_container a{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 15px;
+    color: #D02227;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.cart_container a:hover{
+    background-color: #D02227;
+    color: #fff;
 
+}
+.shop-names-identity{
+    display: flex;
+    align-items: center;
 }
 .cart-header{
     font-size: 40px;

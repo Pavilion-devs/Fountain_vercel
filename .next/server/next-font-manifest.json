@@ -4,19 +4,23 @@
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
     ],
-    "[project]/src/app/Brand/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
     "[project]/src/app/carabao/page": [
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
     ],
-    "[project]/src/app/store/page": [
+    "[project]/src/app/_not-found/page": [
+      "static/media/GeistVF-s.p.7fe29570.woff",
+      "static/media/GeistMonoVF-s.p.a9159d35.woff"
+    ],
+    "[project]/src/app/shop/page": [
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
     ],
     "[project]/src/app/distributor/page": [
+      "static/media/GeistVF-s.p.7fe29570.woff",
+      "static/media/GeistMonoVF-s.p.a9159d35.woff"
+    ],
+    "[project]/src/app/cart/page": [
       "static/media/GeistVF-s.p.7fe29570.woff",
       "static/media/GeistMonoVF-s.p.a9159d35.woff"
     ]

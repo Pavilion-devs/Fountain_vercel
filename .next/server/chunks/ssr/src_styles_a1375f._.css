@@ -85,6 +85,11 @@
     padding: 10px 15px;
   }
 
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
+  }
+
   #user_icon {
     display: none;
   }
@@ -220,6 +225,7 @@
   .hero {
     height: 100%;
     padding: 50px 20px;
+    margin-bottom: 50px;
   }
 
   .hero__title {
@@ -312,7 +318,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 360px;
+  max-width: 360px;
   height: 60px;
   margin-top: 30px;
   border-top: 1px solid #d02227;
@@ -409,6 +415,7 @@
 /* [project]/src/styles/Product.css [app-client] (css) */
 .product {
   border-top: 1px dashed #000;
+  background-color: #fff;
   height: 100%;
   padding: 60px 30px;
 }
@@ -441,6 +448,10 @@
   max-width: 400px;
   max-height: 480px;
   color: #fff;
+}
+
+.product_main_heading {
+  color: #000;
 }
 
 .product__content-1 {
@@ -840,6 +851,7 @@
 .search_field_input {
   border: none;
   outline: none;
+  background: none;
   font-size: 18px;
   font-family: Montserrat Alternates, sans-serif;
 }

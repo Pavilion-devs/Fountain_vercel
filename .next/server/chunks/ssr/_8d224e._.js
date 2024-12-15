@@ -1345,6 +1345,7 @@ __turbopack_esm__({});
 ;
 ;
 ;
+;
 }}),
 "[project]/src/images/index.ts [app-rsc] (ecmascript) <module evaluation>": ((__turbopack_context__) => {
 "use strict";
@@ -1401,6 +1402,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$distributor
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$storeimage$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$storeimage$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/storeimage.jpeg.mjs { IMAGE => "[project]/src/images/storeimage.jpeg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Fountain__hero__copy__1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$Fountain__hero__copy__1$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/Fountain hero copy 1.png.mjs { IMAGE => "[project]/src/images/Fountain hero copy 1.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Star__1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$Star__1$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/Star 1.png.mjs { IMAGE => "[project]/src/images/Star 1.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$singleCarabaoDrink$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$singleCarabaoDrink$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/singleCarabaoDrink.png.mjs { IMAGE => "[project]/src/images/singleCarabaoDrink.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Rectangle__4395$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$Rectangle__4395$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/Rectangle 4395.png.mjs { IMAGE => "[project]/src/images/Rectangle 4395.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$handshaking$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$handshaking$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/handshaking.png.mjs { IMAGE => "[project]/src/images/handshaking.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$team_image$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$team_image$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/team_image.jpeg.mjs { IMAGE => "[project]/src/images/team_image.jpeg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
@@ -2600,6 +2602,7 @@ const OurDistributors = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "full-name",
+                                        className: "distributor_main__form__input_name",
                                         children: "Full name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/distributor/page.tsx",
@@ -2626,6 +2629,7 @@ const OurDistributors = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "full-name",
+                                        className: "distributor_main__form__input_name",
                                         children: "Email"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/distributor/page.tsx",
@@ -2651,6 +2655,7 @@ const OurDistributors = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "phone-number",
+                                        className: "distributor_main__form__input_name",
                                         children: "Phone number"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/distributor/page.tsx",
@@ -2676,6 +2681,7 @@ const OurDistributors = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "store-address",
+                                        className: "distributor_main__form__input_name",
                                         children: "Store's Name"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/distributor/page.tsx",
@@ -2701,6 +2707,7 @@ const OurDistributors = ()=>{
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "store-address",
+                                        className: "distributor_main__form__input_name",
                                         children: "Store's address"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/distributor/page.tsx",

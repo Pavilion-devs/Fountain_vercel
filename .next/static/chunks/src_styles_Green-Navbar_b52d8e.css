@@ -87,7 +87,7 @@
 
 @media (width <= 480px) {
   .land-navbar-img {
-    width: 132px;
+    width: 140px;
     height: 28.64px;
   }
 
@@ -102,6 +102,11 @@
   .navbar__cta {
     display: flex;
     align-items: center;
+    gap: 10px;
+  }
+
+  .navbar__cta-btn {
+    margin-right: 0;
   }
 }
 

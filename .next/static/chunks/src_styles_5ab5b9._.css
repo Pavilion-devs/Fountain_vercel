@@ -88,7 +88,7 @@
 
 @media (width <= 480px) {
   .land-navbar-img {
-    width: 132px;
+    width: 140px;
     height: 28.64px;
   }
 
@@ -103,6 +103,11 @@
   .navbar__cta {
     display: flex;
     align-items: center;
+    gap: 10px;
+  }
+
+  .navbar__cta-btn {
+    margin-right: 0;
   }
 }
 
@@ -357,6 +362,8 @@
   width: 100%;
   height: 100%;
   padding: 60px 30px;
+  background-color: #fff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,6 +391,8 @@
 
 .carabao_influencers {
   width: 100%;
+  background-color: #fff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -412,6 +421,8 @@
 }
 
 .brand__sponsor {
+  background-color: #fff;
+  background: #fff;
   width: 100%;
   height: 100%;
   padding: 100px 30px;
