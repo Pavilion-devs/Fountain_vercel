@@ -31,6 +31,9 @@
     max-height: 480px;
     color: #fff;
 }
+.product_main_heading{
+    color: #000;
+}
 .product__content-1{
     display: flex;
     flex-direction: column;

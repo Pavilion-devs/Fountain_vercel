@@ -90,6 +90,7 @@
     width: 100%;
     font-size: 100px;
     max-width: 600px;
+    color: #000;
 }
 .distributor_main__form_class{
     display: flex;
@@ -103,6 +104,8 @@
     padding: 20px;
     border-radius: 8px;
     font-family: 'Montserrat Alternates';
+    background-color: transparent;
+    color: #000;
     font-size: 18px;
     font-weight: 480;
     line-height: 21.94px;
@@ -116,7 +119,9 @@
     margin-left: 20px;
     font-weight: bold;
 }
-
+.distributor_main__form__input_name{
+    color: #000;
+}
 .distributor_main__form__btn{
     width: 100%;
     padding: 20px;

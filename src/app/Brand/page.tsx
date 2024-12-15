@@ -51,9 +51,9 @@ const Brand = () => {
         <div className="brand__about_content">
           <Image src={founder} width={576} height={400} id="brand__about_content_image" alt="founder image" />
           <div className="brand__about_content-text">
-            <p><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
+            <p className="brand__about_content-text_1"><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
             <p>As the exclusive distributor of Carabao Energy Drink, we proudly bring a world-class product known for its exceptional taste, quality, and balanced energy. </p>
-            <p><span className="brand__about_content-text-span">Our goal is simple:</span> to provide Nigerians with premium beverages that keep them energized, empowered, and ready to take on life.</p>
+            <p className="brand__about_content-text_1"><span className="brand__about_content-text-span">Our goal is simple:</span> to provide Nigerians with premium beverages that keep them energized, empowered, and ready to take on life.</p>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ const Brand = () => {
 
         <div className="brand__journey_content">
           <div className="brand__journey_content-text">
-            <p>
+            <p className="brand__journey_content-text_1">
               Since partnering with Carabao, <span className="brand__about_content-text-span">Fountain Impex Ltd.</span> has achieved remarkable milestones, distributing over a million cans within the first four months. This success reflects our dedication to offering a premium product that resonates with consumers’ lifestyles, whether for athletes, students, professionals, or anyone needing a boost of vitality.
             </p>
           </div>

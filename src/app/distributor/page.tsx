@@ -18,12 +18,12 @@ const OurDistributors = () => {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+            backgroundImage: `url(${img.src})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             filter: 'brightness(30%)',
-            zIndex: -1, // Ensures it's behind content
+            zIndex: -1,
           }}
         ></div>
         <Normalnavbar />
@@ -52,23 +52,23 @@ const OurDistributors = () => {
         </div>
         <form className="distributor_main__form_class">
             <div className="distributor_main__form__input">
-                <label htmlFor="full-name">Full name</label>
+                <label htmlFor="full-name" className="distributor_main__form__input_name">Full name</label>
                 <input type="text" placeholder="John Doe" title="Name" />
             </div>
             <div className="distributor_main__form__input">
-                <label htmlFor="full-name">Email</label>
+                <label htmlFor="full-name" className="distributor_main__form__input_name">Email</label>
                 <input type="text" placeholder="johndoe@gmail.com" />
             </div>
             <div className="distributor_main__form__input">
-              <label htmlFor="phone-number">Phone number</label>
+              <label htmlFor="phone-number" className="distributor_main__form__input_name">Phone number</label>
                 <input type="text" placeholder="+1-0456" />
             </div>
             <div className="distributor_main__form__input">
-              <label htmlFor="store-address">Store's Name</label>
+              <label htmlFor="store-address" className="distributor_main__form__input_name">Store's Name</label>
                 <input type="text" placeholder="Hakkunna Ventures" />
             </div>
             <div className="distributor_main__form__input">
-                <label htmlFor="store-address">Store's address</label>
+                <label htmlFor="store-address" className="distributor_main__form__input_name">Store's address</label>
                 <input type="text" placeholder="16 NY city, Lagos" />
             </div>
             <a href="" className="distributor_main__form__btn">BECOME OUR PARTNER</a>
