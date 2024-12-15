@@ -14,14 +14,22 @@ import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
 const Brand = () => {
   return (
     <section>
-      <div className="brand" style={{
+      <div className="brand">
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
           backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
-          backgroundSize: 'cover', // Correct camelCase property
-          backgroundPosition: 'center', // Correct camelCase property
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           filter: 'brightness(50%)',
-          zIndex: -1, // Correct camelCase property
-          }}>
+          zIndex: -1, // Ensures it's behind content
+        }}
+      ></div>
         <Normalnavbar />
         <div className="brand__container">
           <div className="brand__content">
@@ -153,13 +161,22 @@ const Brand = () => {
 
                                         {/* BRAND MOVEMENT */}
       <div className="brand__movement">
-        <div className="brand__movement_first" style={{
-                    backgroundImage: `url(${imgfirst.src})`, // Correct way to reference the imported image
-                    backgroundSize: 'cover', // Correct camelCase property
-                    backgroundPosition: 'center', // Correct camelCase property
-                    backgroundRepeat: 'no-repeat', // Correct camelCase property
-                    zIndex: -1, // Correct camelCase property
-                  }}>
+        <div className="brand__movement_first">
+        <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: `url(${imgfirst.src})`, // Correct way to reference the imported image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          filter: 'brightness(50%)',
+          zIndex: -1, // Ensures it's behind content
+        }}
+      ></div>
           <div className="brand__movement_first_container">
             <div className="brand__movement_first_container_header">
               <span className="line"></span>
@@ -171,13 +188,22 @@ const Brand = () => {
             </div>
           </div>
         </div>
-        <div className="brand__movement_second style={{
-                    backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
-                    backgroundSize: 'cover', // Correct camelCase property
-                    backgroundPosition: 'center', // Correct camelCase property
-                    backgroundRepeat: 'no-repeat', // Correct camelCase property
-                    zIndex: -1, // Correct camelCase property
-                  }}">
+        <div className="brand__movement_second">
+          <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            filter: 'brightness(50%)',
+            zIndex: -1, // Ensures it's behind content
+          }}
+        ></div>
           <div className="brand__movement_second_container">
             <div className="brand__movement_second_container_header">
               <span className="line"></span>

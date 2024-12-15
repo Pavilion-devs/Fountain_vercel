@@ -8,14 +8,22 @@ import { mainheroImg } from "@/images";
 
 const Hero = () => {
   return (
-    <section className="hero" style={{
-      backgroundImage: `url(${img.src})`, 
-      backgroundSize: 'cover', 
-      filter: 'brightness(50%)',
-      backgroundPosition: 'center', 
-      backgroundRepeat: 'no-repeat',
-      zIndex: -1,
-    }}>
+    <section className="hero">
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          filter: 'brightness(10%)',
+          zIndex: -1, // Ensures it's behind content
+        }}
+      ></div>
       <div className="hero__content">
         <div className="hero_content_text">
           <h1 className="hero__title">Fuel your day with <span className="cursive">quality</span></h1>

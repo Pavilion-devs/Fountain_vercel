@@ -88,6 +88,7 @@
     justify-content: center;
     border-top: 1px solid #D02227;
     border-bottom: 1px solid #D02227;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-top: 80px;
     padding: 20px;
     font-size: 16px;
@@ -98,8 +99,8 @@
     font-family: "Montserrat Alternates", sans-serif;
 }
 .map_content_button:hover{
-    border-left: 1px solid #D02227;
-    border-right: 1px solid #D02227;
+    background-color: #D02227;
+    color: #fff;
 }
 
 

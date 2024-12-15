@@ -101,6 +101,7 @@
   justify-content: center;
   border-top: 1px solid #d02227;
   border-bottom: 1px solid #d02227;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
   margin-top: 80px;
   padding: 20px;
   font-size: 16px;
@@ -112,8 +113,8 @@
 }
 
 .map_content_button:hover {
-  border-left: 1px solid #d02227;
-  border-right: 1px solid #d02227;
+  background-color: #d02227;
+  color: #fff;
 }
 
 @media only screen and (width >= 481px) and (width <= 768px) {

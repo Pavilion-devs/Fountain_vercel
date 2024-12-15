@@ -3,26 +3,11 @@
 .learn {
   position: relative;
   height: 100%;
-  padding: 60px 40px;
+  padding: 60px 0;
   font-weight: 480;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-}
-
-.learn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/manHoldingDrink.273a0221.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-  z-index: -1;
 }
 
 .learn__container_overall {
@@ -40,6 +25,7 @@
   font-weight: 600;
   line-height: 30px;
   color: #fff;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -48,8 +34,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: flex-end;
+  gap: 200px;
 }
 
 .learn__content {
@@ -88,6 +74,7 @@
   border-bottom: 1px solid #fff;
   margin-top: 80px;
   padding: 20px;
+  text-align: left;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.5px;
@@ -104,7 +91,7 @@
 }
 
 .learn__content_sliders {
-  width: 100%;
+  width: 95%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -114,13 +101,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   border-radius: 8px;
   width: 24px;
   height: 24px;
-  pointer-events: none;
-  cursor: not-allowed;
+  cursor: pointer;
   color: gray;
 }
 
@@ -260,6 +246,10 @@
     height: 138.67px;
   }
 
+  .learn__content_sliders {
+    width: 100%;
+  }
+
   .learn_image_two {
     width: 118.86px;
     height: 138.67px;
@@ -280,28 +270,13 @@
 .partnership {
   position: relative;
   height: 100%;
-  padding: 60px 40px;
+  padding: 100px 80px;
   font-weight: 480;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.partnership:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/herobackgroundImg.f22f7da3.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(10%);
-  z-index: -1;
 }
 
 .partnership__title {
@@ -317,14 +292,16 @@
 
 .partnership__container {
   display: flex;
-  gap: 60px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 120px;
 }
 
 .partnership__container_main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
 }
 
 .partnership__container_text_container {
@@ -380,6 +357,17 @@
     flex-direction: column-reverse;
     gap: 60px;
   }
+
+  .partnership__container_img {
+    display: flex;
+    align-items: center;
+  }
+
+  .zoom-image {
+    width: 33%;
+    height: auto;
+    transition: transform .5s;
+  }
 }
 
 @media (width <= 480px) {
@@ -423,6 +411,12 @@
     font-size: 16px;
     margin-top: 0;
   }
+
+  .zoom-image {
+    width: 33%;
+    height: auto;
+    transition: transform .5s;
+  }
 }
 
 
@@ -442,21 +436,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.family-container:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/Fountainfamily.5c6957c2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(30%);
-  z-index: -1;
 }
 
 .family-container_overall_header {

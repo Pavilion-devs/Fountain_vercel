@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
 import Footer from "../landing-page/Footer";
+import img from "../../images/distributorBackgroundImage.jpeg";
 import '../../styles/distributorPage.css';
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import { handshaking } from "@/images";
@@ -10,6 +11,21 @@ const OurDistributors = () => {
   return (
     <section>
       <div className="distributor_main">
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            filter: 'brightness(30%)',
+            zIndex: -1, // Ensures it's behind content
+          }}
+        ></div>
         <Normalnavbar />
         <div className="distributor_main__container">
           <div className="distributor_main__content">
@@ -22,7 +38,7 @@ const OurDistributors = () => {
         <div className="distributor_main-names-identity">
             <a href="/">HOME</a>
             <p> <NormalArrowRightt/></p>
-            <a href="/">OUR SHOP</a>
+            <a href="/shop">OUR SHOP</a>
             
             
         </div>

@@ -198,21 +198,6 @@
   justify-content: space-between;
 }
 
-.distributor_main:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/distributorBackgroundImage.9d82ba70.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-  z-index: -1;
-}
-
 .distributor_main__container {
   width: 100%;
 }
@@ -270,7 +255,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 60px;
+  gap: 100px;
 }
 
 .distributor_main__form_overall_header {
@@ -331,6 +316,7 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
 }
 
 .distributor_main__form__btn:hover {

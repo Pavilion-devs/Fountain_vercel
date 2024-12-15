@@ -4,17 +4,28 @@ import Image from "next/image";
 import Link from "next/link";
 import img from "../../images/manHoldingDrink.png";
 import { largeDrink, mediumDrink, smallDrink } from "@/images";
+import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
+import NormalArrowRightt from "@/icons/NormalArrowRight2";
 
 const Learn = () => {
     return (
 
-    <section className="learn" style={{
-          backgroundImage: `url(${img.src})`,
-          backgroundSize: 'cover', 
-          backgroundPosition: 'center', 
-          backgroundRepeat: 'no-repeat',
-          zIndex: -1, 
-        }}>
+    <section className="learn">
+        <div
+            style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                filter: 'brightness(50%)',
+                zIndex: -1, // Ensures it's behind content
+            }}
+        ></div>
         <div className="learn__title">
             <h1 className="learn__title_text">Fuel Your Day with Carabao</h1>
         </div>
@@ -34,6 +45,7 @@ const Learn = () => {
                         <Ellipse />
                         <p className="learn__content-text-1">Tropical flavors —stay energized, stay focused.</p>
                     </div>
+                    <a href="/carabao" className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
                 </div>
             </div>
             <div className="learn__content-images_container">
@@ -67,12 +79,11 @@ const Learn = () => {
                     </div>
                 </div>
                 <div className="learn__content_sliders">
-                    <a href="" className="learn__content_sliders_btn" aria-disabled>&lt;</a>
-                    <a href="" className="learn__content_sliders_btn">&gt;</a>
+                    <a href="" className="learn__content_sliders_btn" aria-disabled><NormalArrowLeftt/></a>
+                    <a href="" className="learn__content_sliders_btn"><NormalArrowRightt/></a>
                 </div>
             </div>
         </div>
-        <a href="/carabao" className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
 
         </div>
     </section>
