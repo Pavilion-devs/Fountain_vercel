@@ -16,12 +16,12 @@ const Hero = () => {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+          backgroundImage: `url(${img.src})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
           filter: 'brightness(10%)',
-          zIndex: -1, // Ensures it's behind content
+          zIndex: -1, 
         }}
       ></div>
       <div className="hero__content">

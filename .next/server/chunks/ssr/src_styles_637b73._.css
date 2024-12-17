@@ -87,7 +87,7 @@
 
 @media (width <= 480px) {
   .land-navbar-img {
-    width: 132px;
+    width: 140px;
     height: 28.64px;
   }
 
@@ -102,6 +102,11 @@
   .navbar__cta {
     display: flex;
     align-items: center;
+    gap: 10px;
+  }
+
+  .navbar__cta-btn {
+    margin-right: 0;
   }
 }
 
@@ -123,6 +128,8 @@
   margin-bottom: 50px;
   font-size: 32px;
   font-weight: 600;
+  font-family: ClashDisplay;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,6 +162,7 @@
 .search_field_input {
   border: none;
   outline: none;
+  background: none;
   font-size: 18px;
   font-family: Montserrat Alternates, sans-serif;
 }

@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link href="/signIn" className="navbar__cta-btn">
           <Search/>
         </Link>
-        <Link href="/Brand" className="navbar__cta-btn">
+        <Link href="/cart" className="navbar__cta-btn">
           <Cart />
         </Link>
         <Link href="/Brand" className="navbar__cta-btn">

@@ -282,6 +282,8 @@
 .footer-header {
   font-size: 20px;
   text-transform: uppercase;
+  font-family: ClashDisplay;
+  font-weight: 500;
 }
 
 .footer-location_content {

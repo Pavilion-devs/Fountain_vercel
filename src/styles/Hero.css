@@ -43,7 +43,8 @@
 }  
 .hero__title{
     font-size: 4rem;
-    font-family: 'YourCustomFont';
+    font-family: 'ClashDisplay';
+    font-weight: 800;
     text-transform: uppercase;
 }
 .cursive{

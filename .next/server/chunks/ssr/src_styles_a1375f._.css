@@ -133,7 +133,8 @@
 
 .hero__title {
   font-size: 4rem;
-  font-family: YourCustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -280,16 +281,17 @@
   line-height: 30px;
   letter-spacing: 1.5px;
   color: #041d0fcc;
-  font-family: CustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
 }
 
 .about__title-4 {
   font-size: 48px;
-  font-weight: 800;
   line-height: 30px;
   letter-spacing: 1.5px;
   color: #041d0fcc;
-  font-family: CustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -321,6 +323,7 @@
   max-width: 360px;
   height: 60px;
   margin-top: 30px;
+  padding: 10px 20px;
   border-top: 1px solid #d02227;
   transition: background-color .3s ease-in-out, color .3s ease-in-out;
   border-bottom: 1px solid #d02227;
@@ -429,7 +432,8 @@
 }
 
 .product__title_text {
-  font-weight: 700;
+  font-family: ClashDisplay;
+  font-weight: 800;
   font-size: 30px;
 }
 
@@ -452,6 +456,8 @@
 
 .product_main_heading {
   color: #000;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .product__content-1 {
@@ -819,6 +825,8 @@
   margin-bottom: 50px;
   font-size: 32px;
   font-weight: 600;
+  font-family: ClashDisplay;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;

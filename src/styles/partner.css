@@ -26,6 +26,8 @@
 } */
 .partnership__title{
     margin-bottom: 100px;
+    font-family: 'ClashDisplay';
+    font-weight: 700;
 }
 .partnership__title_text{
     color: #fff;

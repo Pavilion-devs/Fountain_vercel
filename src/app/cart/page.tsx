@@ -8,13 +8,25 @@ import Search from '@/icons/search';
 import User from '@/icons/user';
 import Menu from '@/icons/menu';
 import { blackLogo, cartImage } from '@/images';
+import Searchblack from '@/icons/search-black';
+import Userblack from '@/icons/userBlack';
+import Shoppingcartblack from '@/icons/shoppingCartBlack';
+import Menublack from '@/icons/menuBlack';
 
 
 const Cart = () => {
 
     return (
         <section>
-            <Normalnavbar/>
+            <div className='normal_navbar'>
+                <Image src={blackLogo} className='land-navbar-img' alt=''/>
+                <div className='navbar_btn'>
+                    <a href="" className='navbar_btn_a'><Searchblack/></a>
+                    <a href="" className='navbar_btn_a'><Shoppingcartblack/></a>
+                    <a href="" className='navbar_btn_a'><Userblack/></a>
+                    <a href='#' className='menu_btn'><p>menu</p><Menublack/></a>
+                </div>
+            </div>
             <div>
                 <div className="cart-names-identity">
                     <a href="/cart" className=''>SHOPPING CART</a>

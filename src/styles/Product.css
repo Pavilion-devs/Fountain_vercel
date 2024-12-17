@@ -13,7 +13,8 @@
     justify-content: center;
 }
 .product__title_text{
-    font-weight: 700;
+    font-family: 'ClashDisplay';
+    font-weight: 800;
     font-size: 30px;
 }
 .product__container{
@@ -33,6 +34,8 @@
 }
 .product_main_heading{
     color: #000;
+    font-family: 'ClashDisplay';
+    font-weight: 700;
 }
 .product__content-1{
     display: flex;

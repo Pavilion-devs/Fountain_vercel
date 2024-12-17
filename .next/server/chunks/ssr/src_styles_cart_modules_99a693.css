@@ -32,12 +32,13 @@
 }
 
 .cart_container h1 {
+  font-family: ClashDisplay;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 12px;
   text-align: center;
   font-size: 32px;
-  font-weight: 600;
   line-height: 39.36px;
   letter-spacing: .12em;
   text-align: center;
@@ -68,83 +69,62 @@
   align-items: center;
 }
 
-.cart-header {
-  font-size: 40px;
-  font-weight: 700;
-  font-family: sora, sans-serif;
-  color: #00945e;
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
 }
 
-.cart-description {
-  font-size: 20px;
-  font-weight: 480;
-  font-family: Opinion Pro, sans-serif;
+#user_icon {
+  fill: #000;
 }
 
-.cart-link {
-  background-color: #00945e;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+.normal_navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 1000;
   display: flex;
+  border-bottom: 1px solid #000;
+  padding: 20px 40px;
   align-items: center;
-  cursor: pointer;
-  font-family: Opinion Pro, sans-serif;
-  margin-top: 60px;
-  text-transform: uppercase;
-  font-size: 20px;
-  width: 200px;
-  height: 48px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-@media (width <= 595px) {
-  .navbar__cta-btn-menu-logout {
-    display: flex;
-    background-color: #0000;
-    border: none;
-    filter: invert() brightness() contrast();
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
+}
+
+.navbar_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_btn p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (width <= 480px) {
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
   }
 
-  .navbar__menu-2 {
+  .navbar_btn_a {
     display: none;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
-  .cross {
-    background: url("/public/bx-x.svg");
-  }
-
-  .navbar__menu--open {
-    opacity: 1;
-  }
-
-  .navbar__link-logout {
-    font-size: 14px;
-  }
-
-  .navbar__cta-btn {
-    display: none;
-  }
-
-  .navbar__cta-btn-menu-cart {
-    display: block;
-    background-color: #0000;
-    border: none;
-    filter: brightness(0) invert();
-  }
-
-  .log-in {
-    display: block;
-  }
-
-  .navbar__cta-menu {
-    display: block;
-  }
-
-  .navbar__menu-logout, .navbar__cta-btn {
-    display: none;
+  .cart_container h1 {
+    font-size: 25px;
   }
 }
 

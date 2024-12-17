@@ -26,6 +26,8 @@
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .learn__container {

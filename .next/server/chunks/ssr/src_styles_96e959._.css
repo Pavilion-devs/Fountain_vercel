@@ -27,6 +27,8 @@
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .learn__container {
@@ -281,6 +283,8 @@
 
 .partnership__title {
   margin-bottom: 100px;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .partnership__title_text {
@@ -440,6 +444,8 @@
 
 .family-container_overall_header {
   font-size: 32px;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .family-container-overall-text {
@@ -757,6 +763,8 @@
 .footer-header {
   font-size: 20px;
   text-transform: uppercase;
+  font-family: ClashDisplay;
+  font-weight: 500;
 }
 
 .footer-location_content {
