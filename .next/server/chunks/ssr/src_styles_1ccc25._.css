@@ -1,0 +1,306 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/cart.modules.css [app-client] (css) */
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 80px 30px;
+  background-color: #fff;
+}
+
+.cart_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cart-names-identity {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.cart-names-identity a {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.cart_container h1 {
+  font-family: ClashDisplay;
+  font-weight: 700;
+  display: flex;
+  color: #000;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 39.36px;
+  letter-spacing: .12em;
+  text-align: center;
+}
+
+.cart_container p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+
+.cart_container a {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 15px;
+  color: #d02227;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.cart_container a:hover {
+  background-color: #d02227;
+  color: #fff;
+}
+
+.shop-names-identity {
+  display: flex;
+  align-items: center;
+}
+
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
+}
+
+#user_icon {
+  fill: #000;
+}
+
+.normal_navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 1000;
+  display: flex;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
+}
+
+.navbar_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar_btn_a {
+  background-color: #0000;
+  border: none;
+}
+
+.menu_btn p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (width <= 480px) {
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
+  }
+
+  .navbar_btn_a {
+    display: none;
+  }
+
+  .cart_container h1 {
+    font-size: 25px;
+  }
+}
+
+
+/* [project]/src/styles/menuOverlay.css [app-client] (css) */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-overlay__header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.menu-overlay__close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-overlay__nav {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 30px;
+}
+
+.menu-overlay__link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: opacity .3s;
+}
+
+.menu-overlay__link:hover {
+  opacity: .8;
+}
+
+.menu-overlay__link-number {
+  font-size: 14px;
+  opacity: .5;
+  min-width: 25px;
+}
+
+.menu-overlay__link-text {
+  position: relative;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.menu-overlay__link-text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform .3s;
+  transform-origin: 0;
+}
+
+.menu-overlay__link:hover .menu-overlay__link-text:after {
+  transform: scaleX(1);
+}
+
+.navbar__menu-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* [project]/src/styles/searchOverlay.css [app-client] (css) */
+.search-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-overlay__header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.search-overlay__close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.search-overlay__content {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.search-overlay__form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-overlay__input {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ffffff4d;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  outline: none;
+}
+
+.search-overlay__input::placeholder {
+  color: #ffffff80;
+}
+
+.search-overlay__button {
+  background-color: #d32f2f;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.search-overlay__button:hover {
+  background-color: #b71c1c;
+}
+
+
+/*# sourceMappingURL=src_styles_1ccc25._.css.map*/

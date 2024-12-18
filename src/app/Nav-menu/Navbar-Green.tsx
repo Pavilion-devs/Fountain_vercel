@@ -36,10 +36,10 @@ const Normalnavbar = () => {
           >
             <Search/>
           </button>
-        <Link href="/Brand" className="navbar__cta-btn">
+        <Link href="/cart" className="navbar__cta-btn">
           <Cart />
         </Link>
-        <Link href="/Brand" className="navbar__cta-btn">
+        <Link href="#" className="navbar__cta-btn">
           <User/>
         </Link>
         <button 
