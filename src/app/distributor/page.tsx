@@ -47,29 +47,29 @@ const OurDistributors = () => {
       <div className="distributor_main__form">
         <div className="distributor_main__form_overall_header">
             <h1 className="distributor_main__form_header">BECOME</h1>
-            <h1 className="distributor_main__form_header"><span><Image src={handshaking} className="hand_shaking_img" alt=""/></span> OUR</h1>
+            <h1 className="distributor_main__form_header">OUR</h1>
             <h1 className="distributor_main__form_header">PARTNER</h1>
         </div>
         <form className="distributor_main__form_class">
             <div className="distributor_main__form__input">
                 <label htmlFor="full-name" className="distributor_main__form__input_name">Full name</label>
-                <input type="text" placeholder="John Doe" title="Name" />
+                <input type="text" placeholder="" title="Name" />
             </div>
             <div className="distributor_main__form__input">
                 <label htmlFor="full-name" className="distributor_main__form__input_name">Email</label>
-                <input type="text" placeholder="johndoe@gmail.com" />
+                <input type="text" placeholder="" />
             </div>
             <div className="distributor_main__form__input">
               <label htmlFor="phone-number" className="distributor_main__form__input_name">Phone number</label>
-                <input type="text" placeholder="+1-0456" />
+                <input type="text" placeholder="" />
             </div>
             <div className="distributor_main__form__input">
               <label htmlFor="store-address" className="distributor_main__form__input_name">Store's Name</label>
-                <input type="text" placeholder="Hakkunna Ventures" />
+                <input type="text" placeholder="" />
             </div>
             <div className="distributor_main__form__input">
                 <label htmlFor="store-address" className="distributor_main__form__input_name">Store's address</label>
-                <input type="text" placeholder="16 NY city, Lagos" />
+                <input type="text" placeholder="" />
             </div>
             <a href="" className="distributor_main__form__btn">BECOME OUR PARTNER</a>
         </form>

@@ -7,7 +7,7 @@ import imgsecond from "../../images/movement_2.jpeg";
 import '../../styles/all-brands.css';
 import img from "../../images/brandBackgroundImage.jpeg";
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
-import { askamaya, blenco, chandever, chopilos, clubLogo, drinkPack, ebeano, founder, four, journey, libraryLogo, one, passion, ritz, secretPalace, shoprite, star, teamImage, three, two, vodaBeach } from "@/images";
+import { askamaya, blenco, chandever, chopilos, clubLogo, drinkPack, ebeano, founder, four, journey, libraryLogo, one, partner3, passion, ritz, secretPalace, shoprite, star, teamImage, three, two, vodaBeach } from "@/images";
 import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
 
 
@@ -49,7 +49,7 @@ const Brand = () => {
       <div className="brand__about">
         <div><h1 className="brand__about_title">ABOUT US</h1></div>
         <div className="brand__about_content">
-          <Image src={founder} width={576} height={400} id="brand__about_content_image" alt="founder image" />
+          <Image src={partner3} width={576} height={400} id="brand__about_content_image" alt="founder image" />
           <div className="brand__about_content-text">
             <p className="brand__about_content-text_1"><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
             <p>As the exclusive distributor of Carabao Energy Drink, we proudly bring a world-class product known for its exceptional taste, quality, and balanced energy. </p>
@@ -65,9 +65,8 @@ const Brand = () => {
       <div className="brand__journey">
         <div className="brand__about_title_overall">
           <h1 className="brand__journey_title">
-            OUR JOURNEY <Image src={passion} className="passion_image" alt=""/>
+            OUR JOURNEY & COMMITMENT 
             </h1>
-          <h1 className="brand__journey_title title_brand">& COMMITMENT <Image src={journey} className="journey_image" alt=""/></h1>
         </div>
 
         <div className="brand__journey_content">
@@ -110,7 +109,6 @@ const Brand = () => {
             <h1 className="brand__services_title">
               OUR SERVICES
               </h1>
-              <Image src={star} alt=""/>
           </div>
           <div className="brand__services_title_p">
             <p>We don’t just deliver products — we build relationships. </p>
@@ -161,33 +159,6 @@ const Brand = () => {
 
                                         {/* BRAND MOVEMENT */}
       <div className="brand__movement">
-        <div className="brand__movement_first">
-        <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundImage: `url(${imgfirst.src})`, // Correct way to reference the imported image
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          filter: 'brightness(50%)',
-          zIndex: -1, // Ensures it's behind content
-        }}
-      ></div>
-          <div className="brand__movement_first_container">
-            <div className="brand__movement_first_container_header">
-              <span className="line"></span>
-              <h1>OUR IMPACT</h1>
-            </div>
-            <div className="brand__movement_first_container_text">
-              <h1>Trusted by thousands</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-          </div>
-        </div>
         <div className="brand__movement_second">
           <div
           style={{
@@ -198,7 +169,7 @@ const Brand = () => {
             bottom: 0,
             backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'unset',
             backgroundRepeat: 'no-repeat',
             filter: 'brightness(50%)',
             zIndex: -1, // Ensures it's behind content
@@ -214,7 +185,7 @@ const Brand = () => {
               <p>Join us in shaping the future of energy drinks in Nigeria. Partner with Fountain Impex Ltd. and bring the taste of quality, energy, and excellence to your customers. Contact us today to explore how we can work together to fuel success.
               </p>
             </div>
-            <a href="" className="movement_btn">JOIN THE MOVEMENT</a>
+            <a href="/distributor" className="movement_btn">JOIN THE MOVEMENT</a>
           </div>
           
         </div>

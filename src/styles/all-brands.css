@@ -90,6 +90,7 @@
 .brand__about_title{
     margin-bottom: 30px;
     font-size: 32px;
+    font-family: 'ClashDisplay';
     font-weight: 600;
     color: #000;
     display: flex;
@@ -105,8 +106,9 @@
 .brand__about_content-text{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
     font-family: "Montserrat Alternates", sans-serif;
+    line-height: 28px;
     font-size: 20px;
 }
 .brand__about_content-text_1{
@@ -138,6 +140,7 @@
 .brand__journey_title{
     margin-bottom: 10px;
     font-size: 32px;
+    font-family: 'ClashDisplay';
     font-weight: 600;
     color: #000;
     display: flex;
@@ -296,6 +299,7 @@
 }
 .brand__services_title{
     font-size: 32px;
+    font-family: 'ClashDisplay';
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0.02em;
@@ -324,8 +328,7 @@
     align-items: flex-start;
     gap: 70px;
 }
-.brand__services_box{
-    /* max-width: 280px; */
+.brand__services_box {
     height: 320px;
     width: 100%;
     display: flex;
@@ -334,7 +337,23 @@
     gap: 15px;
     background-color: #373837;
     border-radius: 8px;
+    position: relative;
+    overflow: hidden; /* Ensures child elements don't exceed bounds */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
+
+/* Hover effect for tilt and shadow */
+.brand__services_box:hover {
+    transform: rotate(20deg) translateY(-10px); /* Slight tilt and upward motion */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+/* Add hover blur effect to background image if needed */
+.brand__services_box:hover .brand__services_box_content_img img {
+    filter: blur(3px); /* Slight blur on the image */
+    transition: filter 0.3s ease; /* Smooth image transition */
+}
+
 .brand__services_box_content{
     display: flex;
     flex-direction: column;
@@ -375,18 +394,18 @@
                                                     /* BRAND MOVEMENT */
 .brand__movement{
     width: 100%;
-    height: 640px;
-    display: flex;
-}
-.brand__movement_first, .brand__movement_second {
-    width: 50%;
-    position: relative;
-    height: 640px;
-    font-weight: 480;
-    overflow: hidden;
+    height: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.brand__movement_second {
+    width: 100%;
+    padding: 120px 40px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
 }
 /* .brand__movement_first::before {
     content: "";
@@ -402,19 +421,18 @@
     filter: brightness(40%);
     z-index: -1;
 } */
-.brand__movement_first_container, .brand__movement_second_container{
+.brand__movement_second_container{
     color: #fff;
-    padding: 20px 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.brand__movement_first_container_header, .brand__movement_second_container_header{
+.brand__movement_second_container_header{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.brand__movement_first_container_text, .brand__movement_second_container_text{
+.brand__movement_second_container_text{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -424,7 +442,7 @@
     height: 5px;
     background-color: #fff;
 }
-.brand__movement_first_container_text h1, .brand__movement_second_container_text h1{
+ .brand__movement_second_container_text h1{
     font-family: 'Montserrat Alternates';
     font-size: 32px;
     font-weight: 480;
@@ -435,27 +453,13 @@
     text-decoration-skip-ink: none;
 }
 
-.brand__movement_first_container_text p, .brand__movement_second_container_text p{
+.brand__movement_second_container_text p{
     font-family: 'Montserrat Alternates';
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0.02em;
 }
-/* .brand__movement_second::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('./../images/movement_2.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: brightness(40%);
-    z-index: -1;
-} */
 .movement_btn{
     width: 230px;
     height: 50px;
@@ -479,7 +483,8 @@
                                                         /* BRAND SPONSORS */
 .brand__sponsor{
     width: 100%;
-    height: 650px;
+    padding: 80px 0;
+    height: 100%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -669,7 +674,7 @@
     }
     .brand__sponsor{
         width: 100%;
-        height: 100%;
+        max-height: 100%;
         padding: 60px 30px;
         display: flex;
         align-items: center;
@@ -677,10 +682,9 @@
     }
     .brand__sponsor_container{
         max-width: 1106px;
-        height: 100%;
-        padding: 20px 20px;
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 80px;
     }
@@ -737,9 +741,10 @@
         width: 100%;
         max-width: 1106px;
         height: 100%;
-        padding: 20px 20px;
+        /* padding: 20px 20px; */
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 80px;
     }

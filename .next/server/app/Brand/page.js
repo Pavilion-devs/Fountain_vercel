@@ -1,4 +1,4 @@
-const CHUNK_PUBLIC_PATH = "server/app/Brand/page.js";
+const CHUNK_PUBLIC_PATH = "server/app/brand/page.js";
 const runtime = require("../../chunks/ssr/[turbopack]_runtime.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_66bdff._.js");
 runtime.loadChunk("server/chunks/ssr/[root of the server]__ea5163._.js");
@@ -6,8 +6,8 @@ runtime.loadChunk("server/chunks/ssr/src_app_896cde._.js");
 runtime.loadChunk("server/chunks/ssr/_e874e3._.js");
 runtime.loadChunk("server/chunks/ssr/src_app_globals_b80590.css");
 runtime.loadChunk("server/chunks/ssr/node_modules_16929d._.js");
-runtime.loadChunk("server/chunks/ssr/_322830._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_next_818c79._.js");
+runtime.loadChunk("server/chunks/ssr/_cb635e._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_3d23f6._.js");
 runtime.loadChunk("server/chunks/ssr/src_styles_714b79._.css");
-runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/Brand/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/Brand/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/src/app/Brand/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/brand/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-page.js?page=/brand/page { METADATA_0 => \"[project]/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/src/app/favicon.ico [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/src/app/brand/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

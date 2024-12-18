@@ -22,7 +22,7 @@ const HomePage = () => {
       <Locator />
       <Partner />
       <Testimonies />
-      <FountainFamily />
+      {/* <FountainFamily /> */}
       <Sponsors />
       <Footer />
     </>

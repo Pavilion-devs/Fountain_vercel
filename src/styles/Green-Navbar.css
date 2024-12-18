@@ -40,6 +40,8 @@
     transition: all 0.42s ease;
     color: #fff;
     margin-right: 15px;
+    background-color: transparent;
+    border: none;
   }
   .navbar__cta-menu {
     display: none;
@@ -51,6 +53,7 @@
   .log-in{
     display: none;
   }
+
   
   .navbar__cta-img-normal {
     filter: brightness(0) contrast(100%);
@@ -69,6 +72,9 @@
     }
     #user_icon{
       display: none;
+    }
+    .navbar__cta-btn {
+      margin-right: 0px;
     }
     .land-navbar-img{
       width: 150px;

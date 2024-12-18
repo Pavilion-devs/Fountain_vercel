@@ -27,7 +27,6 @@ const Products = () => {
               <p className="product_main_description">Partner with us for wholesale order and bulk supplies.</p>
             </div>
             <div className="product_main_content-text_special">
-              <Image src={serviceMobileImage} width={60} height={64} id="product_main_content-text_special_image" alt=""></Image>
               <p className="product_main_description">02</p>
             </div>
           </div>

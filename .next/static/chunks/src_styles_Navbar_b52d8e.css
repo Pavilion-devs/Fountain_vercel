@@ -33,12 +33,15 @@
 .navbar__cta {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .navbar__cta-btn {
   transition: all .42s;
   color: #fff;
+  background-color: #0000;
+  border: none;
+  cursor: pointer;
 }
 
 .navbar__cta-menu {
@@ -82,11 +85,6 @@
 @media (width <= 480px) {
   .land-navbar {
     padding: 10px 15px;
-  }
-
-  .land-navbar-img {
-    width: 132px;
-    height: 28.64px;
   }
 
   #user_icon {

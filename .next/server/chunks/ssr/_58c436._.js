@@ -230,54 +230,44 @@ const __TURBOPACK__default__export__ = {
     blurHeight: 5
 };
 }}),
-"[project]/src/images/partner_1.png [app-rsc] (static)": ((__turbopack_context__) => {
+"[project]/src/images/partner_1.png [app-rsc] (static)": (() => {{
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: require } = __turbopack_context__;
-{
-__turbopack_export_value__("/_next/static/media/partner_1.03da12fe.png");}}),
-"[project]/src/images/partner_1.png.mjs { IMAGE => \"[project]/src/images/partner_1.png [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": ((__turbopack_context__) => {
-"use strict";
+throw new Error("An error occurred while generating the chunk item [project]/src/images/partner_1.png [app-rsc] (static)\n\nCaused by:\n- StaticAsset::path: not found\n\nDebug info:\n- An error occurred while generating the chunk item [project]/src/images/partner_1.png [app-rsc] (static)\n- Execution of *EcmascriptChunkItemContent::module_factory failed\n- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content failed\n- Execution of *<NodeJsChunkingContext as ChunkingContext>::asset_url failed\n- Execution of <StaticAsset as OutputAsset>::ident failed\n- StaticAsset::path: not found");
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_1$2e$png__$5b$app$2d$rsc$5d$__$28$static$29$__ = __turbopack_import__("[project]/src/images/partner_1.png [app-rsc] (static)");
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_1$2e$png__$5b$app$2d$rsc$5d$__$28$static$29$__["default"],
-    width: 200,
-    height: 320,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAs0lEQVR42gGoAFf/AHV1ZP+Pj3z/Z2lb/0lKPP9KSzv/AH99a/+sqpT/cnNk/z09MP81NCX/AIuBbv+Ri3n/gXRm/2xeVP9RTUH/ALGIe/+ofW7/soR1/8OQgP/AmYn/AIFqX/+RaVv/qnxu/7SDdv+0hnj/AGVnYv9HOjb/c1BF/5huYP96YFT/AEFEQ/8fIiX/GxcY/1hVUf8/Pjr/ADY3MP8cHBz/DQwO/zY3NP9ERkD/e95VLpJ+1lAAAAAASUVORK5CYII=",
-    blurWidth: 5,
-    blurHeight: 8
-};
 }}),
-"[project]/src/images/partner_2.png [app-rsc] (static)": ((__turbopack_context__) => {
+"[project]/src/images/partner_1.png.mjs { IMAGE => \"[project]/src/images/partner_1.png [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": (function(__turbopack_context__) {
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: require } = __turbopack_context__;
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: require } = __turbopack_context__;
 {
-__turbopack_export_value__("/_next/static/media/partner_2.d009a704.png");}}),
-"[project]/src/images/partner_2.png.mjs { IMAGE => \"[project]/src/images/partner_2.png [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": ((__turbopack_context__) => {
-"use strict";
+const e = new Error(`Could not parse module '[project]/src/images/partner_1.png.mjs'
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_2$2e$png__$5b$app$2d$rsc$5d$__$28$static$29$__ = __turbopack_import__("[project]/src/images/partner_2.png [app-rsc] (static)");
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_2$2e$png__$5b$app$2d$rsc$5d$__$28$static$29$__["default"],
-    width: 200,
-    height: 320,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAs0lEQVR42gGoAFf/AJOBkf9OSFr/NTdF/y83Rf8/PkT/AIVnav9rXWv/XFBP/1JNUP90U0P/AItpR/9vYln/f29k/11eZv9NQ0j/AJt3TP+dkIP/qq65/2Joe/9KSlb/AJuchf+Qh3f/dG9m/01KTf90Tjr/AKyRdf+Vhm7/FRQT/wgGBv8yJx//AGpXTf99d23/VEQ5/zQkHP8UCwr/AB8XFP8qJiT/Nisl/x8VEf8LBgb/dChO+eX3dqIAAAAASUVORK5CYII=",
-    blurWidth: 5,
-    blurHeight: 8
-};
+Input image not found
+
+Debug info:
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
+"[project]/src/images/partner_2.png [app-rsc] (static)": (() => {{
+
+throw new Error("An error occurred while generating the chunk item [project]/src/images/partner_2.png [app-rsc] (static)\n\nCaused by:\n- StaticAsset::path: not found\n\nDebug info:\n- An error occurred while generating the chunk item [project]/src/images/partner_2.png [app-rsc] (static)\n- Execution of *EcmascriptChunkItemContent::module_factory failed\n- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content failed\n- Execution of *<NodeJsChunkingContext as ChunkingContext>::asset_url failed\n- Execution of <StaticAsset as OutputAsset>::ident failed\n- StaticAsset::path: not found");
+
 }}),
+"[project]/src/images/partner_2.png.mjs { IMAGE => \"[project]/src/images/partner_2.png [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": (function(__turbopack_context__) {
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: require } = __turbopack_context__;
+{
+const e = new Error(`Could not parse module '[project]/src/images/partner_2.png.mjs'
+
+Input image not found
+
+Debug info:
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/src/images/partner_3.png [app-rsc] (static)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: require } = __turbopack_context__;
@@ -1410,8 +1400,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$arrowdirect
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$arrowdirection$2d$left$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$arrowdirection$2d$left$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/arrowdirection-left.png.mjs { IMAGE => "[project]/src/images/arrowdirection-left.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$gym$2d$exercise$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$gym$2d$exercise$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/gym-exercise.png.mjs { IMAGE => "[project]/src/images/gym-exercise.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$map$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$map$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/map.png.mjs { IMAGE => "[project]/src/images/map.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_1$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/partner_1.png.mjs { IMAGE => "[project]/src/images/partner_1.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_2$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/partner_2.png.mjs { IMAGE => "[project]/src/images/partner_2.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
+(()=>{
+    const e = new Error("Cannot find module './partner_1.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module './partner_2.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_3$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/partner_3.png.mjs { IMAGE => "[project]/src/images/partner_3.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Ice$2d$polygon$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$Ice$2d$polygon$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/Ice-polygon.png.mjs { IMAGE => "[project]/src/images/Ice-polygon.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$manHoldingDrink$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$manHoldingDrink$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/manHoldingDrink.png.mjs { IMAGE => "[project]/src/images/manHoldingDrink.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');

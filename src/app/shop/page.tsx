@@ -12,7 +12,7 @@ import { singleCarabaoDrink } from '@/images';
 
 const Shop = () => {
     const [quantity, setQuantity] = useState(1); // State to track quantity
-  const pricePerUnit = 10000; // Set the price per unit product
+  const pricePerUnit = 26000; // Set the price per unit product
 
   // Handlers for increment and decrement
   const increment = () => setQuantity((prev) => prev + 1);
@@ -61,7 +61,7 @@ const Shop = () => {
           <div className="shop__store_selection__content_product">
             <Image src={singleCarabaoDrink} className='shop__store_selection__content_product_image' alt="" />
             <div className="shop__store_selection__content_product__text">
-                <h1>ORIGINAL</h1>
+                <h1>CARABAO ORIGINAL DRINK</h1>
                 <p>12 Packs</p>
                 <div className='shop__store_selection__content_product__container'>
                 <div className="shop__store_selection__content_product__counter">

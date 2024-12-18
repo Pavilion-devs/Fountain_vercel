@@ -476,6 +476,8 @@
   transition: all .42s;
   color: #fff;
   margin-right: 15px;
+  background-color: #0000;
+  border: none;
 }
 
 .navbar__cta-menu {
@@ -508,6 +510,10 @@
 
   #user_icon {
     display: none;
+  }
+
+  .navbar__cta-btn {
+    margin-right: 0;
   }
 
   .land-navbar-img {

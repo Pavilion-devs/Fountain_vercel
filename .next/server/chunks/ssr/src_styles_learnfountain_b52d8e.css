@@ -2,7 +2,7 @@
 .learn {
   position: relative;
   height: 100%;
-  padding: 60px 0;
+  padding: 120px 0;
   font-weight: 480;
   overflow: hidden;
   display: flex;
@@ -35,8 +35,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 200px;
+  justify-content: space-around;
+  gap: 150px;
 }
 
 .learn__content {
@@ -61,7 +61,7 @@
 .learn__content-images {
   display: flex;
   align-items: flex-end;
-  gap: 10px;
+  gap: 50px;
 }
 
 .learn_content_button {

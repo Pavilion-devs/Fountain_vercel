@@ -6,7 +6,7 @@ runtime.loadChunk("server/chunks/ssr/src_app_896cde._.js");
 runtime.loadChunk("server/chunks/ssr/_e874e3._.js");
 runtime.loadChunk("server/chunks/ssr/src_app_globals_b80590.css");
 runtime.loadChunk("server/chunks/ssr/node_modules_16929d._.js");
-runtime.loadChunk("server/chunks/ssr/_beae0c._.js");
+runtime.loadChunk("server/chunks/ssr/_6b144f._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_12b7b9._.js");
 runtime.loadChunk("server/chunks/ssr/src_styles_f26a84._.css");
 runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/distributor/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);

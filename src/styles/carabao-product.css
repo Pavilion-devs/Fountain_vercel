@@ -12,20 +12,6 @@
     justify-content: space-between;
   }
   
-/* .carabao::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('./../images/manholdingcarabao.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: brightness(50%);
-    z-index: -1;
-} */
 .carabao__container{
     width: 100%;
 }

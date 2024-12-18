@@ -2910,38 +2910,24 @@ const Brand = ()=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "brand__journey_title",
-                                children: [
-                                    "OUR JOURNEY ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$passion$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$passion$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__passion$3e$__["passion"],
-                                        className: "passion_image",
-                                        alt: ""
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/Brand/page.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 25
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: "OUR JOURNEY & COMMITMENT"
+                            }, void 0, false, {
                                 fileName: "[project]/src/app/Brand/page.tsx",
                                 lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "brand__journey_title title_brand",
-                                children: [
-                                    "& COMMITMENT ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$journey$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$journey$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__journey$3e$__["journey"],
-                                        className: "journey_image",
-                                        alt: ""
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/Brand/page.tsx",
-                                        lineNumber: 70,
-                                        columnNumber: 73
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ _jsxDEV(Image, {
+                                    src: journey,
+                                    className: "journey_image",
+                                    alt: ""
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/Brand/page.tsx",
+                                    lineNumber: 70,
+                                    columnNumber: 60
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/app/Brand/page.tsx",
                                 lineNumber: 70,
                                 columnNumber: 11

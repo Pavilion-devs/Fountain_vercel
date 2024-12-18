@@ -115,11 +115,13 @@
     text-decoration-skip-ink: none;
 }
 .distributor_main__form__label{
+
     margin-bottom: -15px;
     margin-left: 20px;
     font-weight: bold;
 }
 .distributor_main__form__input_name{
+    font-family: "Montserrat Alternates", sans-serif;
     color: #000;
 }
 .distributor_main__form__btn{

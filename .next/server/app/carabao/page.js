@@ -6,7 +6,7 @@ runtime.loadChunk("server/chunks/ssr/src_app_896cde._.js");
 runtime.loadChunk("server/chunks/ssr/_e874e3._.js");
 runtime.loadChunk("server/chunks/ssr/src_app_globals_b80590.css");
 runtime.loadChunk("server/chunks/ssr/node_modules_16929d._.js");
-runtime.loadChunk("server/chunks/ssr/_d8e6d6._.js");
+runtime.loadChunk("server/chunks/ssr/_475919._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_188eec._.js");
 runtime.loadChunk("server/chunks/ssr/src_styles_ad2cd0._.css");
 runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/carabao/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);

@@ -1,208 +1,221 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap');
-
 .about{
-    background-color: #ffffff;
-    padding: 10% 5%;
+  background-color: #ffffff;
+  padding: 10% 5%;
 }
 .about__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
-.about__title-1, .about__title-2, .about__title-3{
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 30px;
-    letter-spacing: 1.5px;
-    color: #041D0FCC;
-    font-family: 'ClashDisplay';
-    font-weight: 800;
-}
-.about__title-4{
-    font-size: 48px;
-    line-height: 30px;
-    letter-spacing: 1.5px;
-    color: #041D0FCC;
-    font-family: 'ClashDisplay';
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.about__title-1, .about__title-2, .about__title-3, .about__title-4{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #041D0FCC;
+  font-family: 'ClashDisplay';
+  font-weight: 800;
 }
 
 .about-description{
-    display: flex;
-    align-items: flex-start;
-    gap: 80px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 480;
-    font-style: normal;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 480;
+  font-style: normal;
 }
 .about__description-1{
-    font-size: 16px;
-    font-weight: 300;
-    max-width: 480px;
-    font-weight: 480;
-    font-style: normal;
-    line-height: 27px;
-    color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 480px;
+  font-weight: 480;
+  font-style: normal;
+  line-height: 27px;
+  color: #000;
 }
 .about-description-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 360px;
-    height: 60px;
-    margin-top: 30px;
-    padding: 10px 20px;
-    border-top: 1px solid #D02227;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    border-bottom: 1px solid #D02227;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #D02227;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 360px;
+  height: 60px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-top: 1px solid #D02227;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-bottom: 1px solid #D02227;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #D02227;
 }
 .about-description-btn:hover{
-    background-color: #D02227;
-    color: #ffffff;
+  background-color: #D02227;
+  color: #ffffff;
 }
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: letterFadeIn 0.5s forwards ease-out;
+}
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate.active .letter {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes letterFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes zoomIn {
-    from {
-      opacity: 0;
-      transform: scale(0.5);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  
-  .fade-in-up {
+  from {
     opacity: 0;
-    animation: fadeInUp 1s ease-out forwards;
+    transform: translateY(50px);
   }
-  
-  .zoom-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
     opacity: 0;
-    animation: zoomIn 1s ease-out forwards;
+    transform: scale(0.5);
   }
-  
-  .slide-in-left {
-    opacity: 0;
-    transform: translateX(-100%);
-    animation: slideInLeft 1s ease-out forwards;
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  .slide-in-right {
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slideInRight 1s ease-out forwards;
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.zoom-in {
+  opacity: 0;
+  animation: zoomIn 1s ease-out forwards;
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideInRight 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  
-  @keyframes slideInLeft {
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  
-  @keyframes slideInRight {
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+}
+
+.bounce-hover:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
   }
-  
-  .bounce-hover:hover {
-    animation: bounce 0.5s ease-in-out;
+  50% {
+    transform: translateY(-5px);
   }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
-  }
-  
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .about__title-1, .about__title-2, .about__title-3, .about__title-4{
-        font-size: 38px;
-        text-align: center;
-    }
+  .about__title-1, .about__title-2, .about__title-3, .about__title-4{
+      font-size: 38px;
+      text-align: center;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .about__title-1, .about__title-2, .about__title-3{
-        font-size: 30px;
-    }
-    .about__title-4{
-        font-size: 30px;
-    }
-    .about__container{
-        text-align: center;
-    }
-    .about-image-1{
-        width: 70px;
-        height: 38px;
-    }
-    .about-image-2{
-        width: 70px;
-        height: 48px;
-    }
-    .about-image-3, .about-image-4{
-        width: 55px;
-        height: 55px;
-    }
+  .about__title-1, .about__title-2, .about__title-3{
+      font-size: 30px;
+  }
+  .about__title-4{
+      font-size: 30px;
+  }
+  .about__container{
+      text-align: center;
+  }
+  .about-image-1{
+      width: 70px;
+      height: 38px;
+  }
+  .about-image-2{
+      width: 70px;
+      height: 48px;
+  }
+  .about-image-3, .about-image-4{
+      width: 55px;
+      height: 55px;
+  }
 }
 
 @media (max-width: 480px){
-    .about__container{
-        max-width: 364px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
-    .about-description{
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .about__title-1, .about__title-2, .about__title-3, .about__title-4{
-        font-size: 24px;
-        font-weight: 800;
-        line-height: 30px;
-    }
-    .about-image-1{
-        width: 64px;
-        height: 32px;
-    }
-    .about-image-2{
-        width: 64px;
-        height: 40px;
-    }
-    .about-image-3, .about-image-4{
-        width: 40px;
-        height: 40px;
-    }
+  .about__container{
+      max-width: 364px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+  }
+  .about-description{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 30px;
+  }
+  .about__title-1, .about__title-2, .about__title-3, .about__title-4{
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 30px;
+  }
+  .about-image-1{
+      width: 64px;
+      height: 32px;
+  }
+  .about-image-2{
+      width: 64px;
+      height: 40px;
+  }
+  .about-image-3, .about-image-4{
+      width: 40px;
+      height: 40px;
+  }
 
 }

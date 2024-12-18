@@ -1,15 +1,15 @@
 {
   "pages": {
-    "/Brand/page": [
+    "/brand/page": [
       "static/chunks/_f0b58d._.js",
       "static/chunks/src_app_favicon_ico_mjs_7a4b0e._.js",
       "static/chunks/src_app_globals_b80590.css",
       "static/chunks/src_app_layout_tsx_20a9fc._.js",
       "static/chunks/src_app_layout_tsx_36ac26._.js",
-      "static/chunks/src_e7fb82._.js",
-      "static/chunks/node_modules_next_923aec._.js",
-      "static/chunks/src_styles_88b4aa._.css",
-      "static/chunks/src_app_Brand_page_tsx_de332b._.js",
+      "static/chunks/src_0d07cf._.js",
+      "static/chunks/node_modules_86a001._.js",
+      "static/chunks/src_styles_47697e._.css",
+      "static/chunks/src_app_brand_page_tsx_de332b._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
       "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
       "static/chunks/node_modules_next_dist_client_9bb038._.js",

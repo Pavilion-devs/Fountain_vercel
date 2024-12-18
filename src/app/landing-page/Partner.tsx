@@ -2,7 +2,7 @@ import "../../styles/partner.css";
 import Ellipse from "@/icons/dot";
 import Image from "next/image";
 import img from "../../images/herobackgroundImg.png";
-import { partner1, partner2, partner3 } from "@/images";
+import { partner1, partner2 } from "@/images";
 
 
 const Partner = () => {
@@ -51,13 +51,11 @@ const Partner = () => {
                 </div>
                 <div className="partnership__container_img">
                     <Image src={partner1} className="zoom-image" alt='partner image 1' />
-                    <Image src={partner2} className="zoom-image" alt='partner image 2' />
-                    <Image src={partner3} className="zoom-image" alt='partner image 3' />
+                    {/* <Image src={partner2} className="zoom-image" alt='partner image 2' /> */}
                 </div>
             </div>
         </section>
     )
-
 };
 
 export default Partner;

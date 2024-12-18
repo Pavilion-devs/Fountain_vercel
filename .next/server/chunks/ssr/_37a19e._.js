@@ -2110,7 +2110,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$herobackgro
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$index$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/src/images/index.ts [app-rsc] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_1$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__partner1$3e$__ = __turbopack_import__('[project]/src/images/partner_1.png.mjs { IMAGE => "[project]/src/images/partner_1.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript) <export default as partner1>');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_2$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__partner2$3e$__ = __turbopack_import__('[project]/src/images/partner_2.png.mjs { IMAGE => "[project]/src/images/partner_2.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript) <export default as partner2>');
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_3$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__partner3$3e$__ = __turbopack_import__('[project]/src/images/partner_3.png.mjs { IMAGE => "[project]/src/images/partner_3.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript) <export default as partner3>');
 ;
 ;
 ;
@@ -2290,15 +2289,6 @@ const Partner = ()=>{
                             }, void 0, false, {
                                 fileName: "[project]/src/app/landing-page/Partner.tsx",
                                 lineNumber: 54,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$partner_3$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$partner_3$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__$3c$export__default__as__partner3$3e$__["partner3"],
-                                className: "zoom-image",
-                                alt: "partner image 3"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/landing-page/Partner.tsx",
-                                lineNumber: 55,
                                 columnNumber: 21
                             }, this)
                         ]

@@ -29,12 +29,15 @@ display: none;
 .navbar__cta {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .navbar__cta-btn {
   transition: all 0.42s ease;
   color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 .navbar__cta-menu {
   display: none;
@@ -74,10 +77,6 @@ display: none;
 @media(max-width: 480px){
   .land-navbar{
     padding: 10px 15px;
-  }
-  .land-navbar-img{
-    width: 132px;
-    height: 28.64px;
   }
   #user_icon{
     display: none;
