@@ -88,9 +88,9 @@ const Shop = () => {
                     -
                   </button>
                   <span
+                  className="shop__store_selection__content_product__counter__span"
                     style={{
-                      margin: "0 10px",
-                      fontSize: "16px",
+                      fontSize: "20px",
                       fontWeight: "bold",
                     }}
                   >

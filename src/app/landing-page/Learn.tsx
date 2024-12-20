@@ -77,7 +77,7 @@ const Learn = () => {
                                     Tropical flavors —stay energized, stay focused.
                                 </p>
                             </div>
-                            <a href="/brand/carabao" className="learn_content_button">
+                            <a href="/Brand/carabao" className="learn_content_button">
                                 LEARN MORE ABOUT CARABAO
                             </a>
                         </div>
