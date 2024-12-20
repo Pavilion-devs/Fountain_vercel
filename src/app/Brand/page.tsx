@@ -92,7 +92,7 @@ const Brand = () => {
               is more than just a distributor — we’re a trusted partner in
               energizing and refreshing lives across Nigeria.{" "}
             </p>
-            <p>
+            <p className="brand__about_content-text_3">
               As the exclusive distributor of Carabao Energy Drink, we proudly
               bring a world-class product known for its exceptional taste,
               quality, and balanced energy.{" "}
