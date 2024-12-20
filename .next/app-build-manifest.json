@@ -1,15 +1,15 @@
 {
   "pages": {
-    "/cart/page": [
+    "/shop/page": [
       "static/chunks/_f0b58d._.js",
       "static/chunks/src_app_favicon_ico_mjs_7a4b0e._.js",
       "static/chunks/src_app_globals_b80590.css",
       "static/chunks/src_app_layout_tsx_20a9fc._.js",
       "static/chunks/src_app_layout_tsx_36ac26._.js",
-      "static/chunks/src_1331dc._.js",
-      "static/chunks/node_modules_1c401f._.js",
-      "static/chunks/src_styles_e89639._.css",
-      "static/chunks/src_app_cart_page_tsx_de332b._.js",
+      "static/chunks/src_d1b514._.js",
+      "static/chunks/node_modules_0ae63b._.js",
+      "static/chunks/src_styles_25d4c0._.css",
+      "static/chunks/src_app_shop_page_tsx_de332b._.js",
       "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
       "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
       "static/chunks/node_modules_next_dist_client_9bb038._.js",
