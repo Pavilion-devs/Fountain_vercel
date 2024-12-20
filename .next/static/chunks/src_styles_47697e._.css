@@ -48,6 +48,7 @@
   margin-right: 15px;
   background-color: #0000;
   border: none;
+  cursor: pointer;
 }
 
 .navbar__cta-menu {
@@ -82,10 +83,6 @@
     display: none;
   }
 
-  .navbar__cta-btn {
-    margin-right: 0;
-  }
-
   .land-navbar-img {
     width: 150px;
     height: 35px;
@@ -94,26 +91,25 @@
 
 @media (width <= 480px) {
   .land-navbar-img {
-    width: 140px;
+    width: 132px;
     height: 28.64px;
+  }
+
+  .navbar__cta-btn {
+    margin-right: 5px;
   }
 
   .normal-navbar {
     padding: 10px 15px;
   }
 
-  #user_icon {
+  #user_icon, #mycart {
     display: none;
   }
 
   .navbar__cta {
     display: flex;
     align-items: center;
-    gap: 10px;
-  }
-
-  .navbar__cta-btn {
-    margin-right: 0;
   }
 }
 
@@ -324,8 +320,6 @@
 .footer-header {
   font-size: 20px;
   text-transform: uppercase;
-  font-family: ClashDisplay;
-  font-weight: 500;
 }
 
 .footer-location_content {
@@ -549,8 +543,8 @@
 
 .brand__about_title {
   margin-bottom: 30px;
+  font-family: ClashDisplay, sans-serif;
   font-size: 32px;
-  font-family: ClashDisplay;
   font-weight: 600;
   color: #000;
   display: flex;
@@ -568,9 +562,8 @@
 .brand__about_content-text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 15px;
   font-family: Montserrat Alternates, sans-serif;
-  line-height: 28px;
   font-size: 20px;
 }
 
@@ -604,9 +597,9 @@
 .brand__journey_title {
   margin-bottom: 10px;
   font-size: 32px;
-  font-family: ClashDisplay;
   font-weight: 600;
   color: #000;
+  font-family: ClashDisplay, sans-serif;
   display: flex;
   align-items: center;
   text-align: center;
@@ -766,8 +759,8 @@
 }
 
 .brand__services_title {
+  font-family: ClashDisplay, sans-serif;
   font-size: 32px;
-  font-family: ClashDisplay;
   font-weight: 600;
   line-height: 28px;
   letter-spacing: .02em;
@@ -808,19 +801,6 @@
   gap: 15px;
   background-color: #373837;
   border-radius: 8px;
-  position: relative;
-  overflow: hidden;
-  transition: transform .3s, box-shadow .3s;
-}
-
-.brand__services_box:hover {
-  transform: rotate(20deg)translateY(-10px);
-  box-shadow: 0 10px 20px #0000004d;
-}
-
-.brand__services_box:hover .brand__services_box_content_img img {
-  filter: blur(3px);
-  transition: filter .3s;
 }
 
 .brand__services_box_content {
@@ -864,34 +844,36 @@
 
 .brand__movement {
   width: 100%;
-  height: 100%;
+  height: 640px;
+  display: flex;
+  margin: 150px 0;
+}
+
+.brand__movement_second, .brand__movement_first {
+  width: 50%;
+  position: relative;
+  font-weight: 480;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.brand__movement_second {
-  width: 100%;
-  padding: 120px 40px;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-}
-
-.brand__movement_second_container {
+.brand__movement_second_container, .brand__movement_first_container {
   color: #fff;
+  padding: 20px 50px;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
-.brand__movement_second_container_header {
+.brand__movement_first_container_header, .brand__movement_second_container_header {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.brand__movement_second_container_text {
+.brand__movement_first_container_text, .brand__movement_second_container_text {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -903,7 +885,18 @@
   background-color: #fff;
 }
 
-.brand__movement_second_container_text h1 {
+.liner {
+  width: 60px;
+  height: 5px;
+  border: 3px solid #1c4e21;
+  background-color: #0000;
+}
+
+.brand__movement_first_container_header h1 {
+  color: #40b44b;
+}
+
+.brand__movement_first_container_text h1, .brand__movement_second_container_text h1 {
   font-family: Montserrat Alternates;
   font-size: 32px;
   font-weight: 480;
@@ -914,12 +907,27 @@
   text-decoration-skip-ink: none;
 }
 
-.brand__movement_second_container_text p {
+.brand__movement_first_container_text p, .brand__movement_second_container_text p {
   font-family: Montserrat Alternates;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: .02em;
+}
+
+.brand__movement_second:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../media/movement_2.8ec2810a.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(40%);
+  z-index: -1;
 }
 
 .movement_btn {
@@ -938,8 +946,7 @@
 
 .brand__sponsor {
   width: 100%;
-  padding: 80px 0;
-  height: 100%;
+  height: 650px;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -1041,6 +1048,7 @@
   }
 
   .brand__quality_container_first h1 {
+    text-align: center;
     color: #fff;
   }
 
@@ -1154,7 +1162,7 @@
 
   .brand__sponsor {
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     padding: 60px 30px;
     display: flex;
     align-items: center;
@@ -1163,9 +1171,10 @@
 
   .brand__sponsor_container {
     max-width: 1106px;
+    height: 100%;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 80px;
   }
@@ -1205,13 +1214,13 @@
   }
 
   .brand__about {
-    padding-top: 60px;
+    padding: 60px 20px;
   }
 
   .brand__journey {
     width: 100%;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -1233,9 +1242,9 @@
     width: 100%;
     max-width: 1106px;
     height: 100%;
+    padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 80px;
   }
@@ -1250,6 +1259,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    padding: 0;
   }
 
   #brand__about_content_image {
@@ -1259,6 +1269,7 @@
 
   .brand__quality_container_first h1 {
     display: block;
+    text-align: center;
   }
 
   .brand__journey_content {
@@ -1267,6 +1278,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    padding: 0;
   }
 
   .brand__about_title_overall {
@@ -1424,6 +1436,7 @@
 
   .brand__movement_first, .brand__movement_second {
     width: 100%;
+    padding: 80px 0;
   }
 
   .brand__movement_first_container_text h1, .brand__movement_second_container_text h1 {

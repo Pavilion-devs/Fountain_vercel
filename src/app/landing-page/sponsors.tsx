@@ -48,14 +48,14 @@ const Sponsors = () => {
                     <div><Image src={clubLogo} alt="Club" /></div>
                     <div><Image src={libraryLogo} alt="Library" /></div>
                     </div>
-                    {/* <div className="sponsors-btns">
+                    <div className="sponsors-btns">
                     <button className="scroll-btn left" onClick={() => scrollRef.current?.scrollBy({ left: -300, behavior: "smooth" })}>
                         <NormalArrowLeft/>
                     </button>
                     <button className="scroll-btn right" onClick={() => scrollRef.current?.scrollBy({ left: 300, behavior: "smooth" })}>
                         <NormalArrowRight/>
                     </button>
-                    </div> */}
+                    </div>
                 </div>
             </section>
         </div>

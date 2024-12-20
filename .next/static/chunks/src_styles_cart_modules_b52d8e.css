@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+  background-color: #fff;
 }
 
 .cart-names-identity {
@@ -23,6 +24,7 @@
   width: 100%;
   display: flex;
   gap: 10px;
+  background-color: #fff;
 }
 
 .cart-names-identity a {
@@ -134,6 +136,14 @@
 
   .cart_container h1 {
     font-size: 25px;
+  }
+
+  .normal_navbar {
+    padding: 10px 20px;
+  }
+
+  .cart {
+    display: none;
   }
 }
 

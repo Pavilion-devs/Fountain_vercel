@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
 import Footer from "../landing-page/Footer";
-import img from "../../images/distributorBackgroundImage.jpeg";
+import img from "../../images/distributorBackgroundImage.jpg";
 import '../../styles/distributorPage.css';
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import { handshaking } from "@/images";

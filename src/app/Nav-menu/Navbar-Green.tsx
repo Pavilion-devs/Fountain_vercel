@@ -32,11 +32,12 @@ const Normalnavbar = () => {
       <div className="navbar__cta">
         <button 
             className="navbar__cta-btn"
+            id="mycart"
             onClick={() => setIsSearchOpen(true)}
           >
             <Search/>
           </button>
-        <Link href="/cart" className="navbar__cta-btn">
+        <Link href="/cart" id="mycart" className="navbar__cta-btn">
           <Cart />
         </Link>
         <Link href="#" className="navbar__cta-btn">

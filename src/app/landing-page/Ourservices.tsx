@@ -83,7 +83,7 @@ const Services = () => {
             gearing up for your next big adventure. 
           </p>
         </div>
-        <a href="/carabao" className="about-description-btn bounce-hover">
+        <a href="/brand/carabao" className="about-description-btn bounce-hover">
           OUR STORY, OUR BRAND
         </a>
       </div>

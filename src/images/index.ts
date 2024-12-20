@@ -6,9 +6,10 @@ import arrowRight from "./arrowdirection-right.png"
 import arrowLeft from "./arrowdirection-left.png"
 import gymExercise from "./gym-exercise.png"
 import map from "./map.png"
-import partner1 from "./partner_1.jpg"
-import partner2 from "./partner_2.jpg"
-import partner3 from "./partner_3.jpg"
+import sugar from "./sugar.jpeg"
+import partner1 from "./partner_1.png"
+import partner2 from "./partner_2.png"
+import partner3 from "./partner_3.png"
 import icePolygon from "./Ice-polygon.png"
 import learnBackgroundImg from './manHoldingDrink.png'
 import fountainFamily from "./Fountainfamily.png"
@@ -30,7 +31,6 @@ import libraryLogo from "./the library logo.png"
 import brandBackgroundImage from "./brandBackgroundImage.jpeg"
 import shoprite from "./shoprite.png"
 import journey from "./journey.png"
-import download_pack from "./download.jpg"
 import passion from "./passion.png"
 import one from "./01.png"
 import two from "./02.png"
@@ -40,20 +40,18 @@ import ebeano from "./prince ebeano logo 1.png"
 import carabaoImage from "./manholdingcarabao.png"
 import secretPalace from "./secrets palace logo 1.png"
 import vodaBeach from "./voda beach logo 1.png"
-import movement_one from "./movement_1.jpeg"
 import movement_two from "./movement_2.jpeg"
+import realfounder from "./founder.png"
 import coupleHoldingdrinks from "./Frame 1522851667.png"
+import singleCarabaoDrink from "./singleCarabaoDrink.png"
 import four from "./04.png"
-import distributorBackgroundImage from "./distributorBackgroundImage.jpeg"
+import distributorBackgroundImage from "./distributorBackgroundImage.jpg"
 import storeBackgroundImage from "./storeimage.jpeg"
 import carabaoInfluencerImage from "./Fountain hero copy 1.png"
 import star from "./Star 1.png"
-import sugar from "./sugar.jpeg"
-import cartImage from "./cartImage.png"
-import singleCarabaoDrink from "./singleCarabaoDrink.png"
 import serviceMobileImage from "./Rectangle 4395.png"
 import handshaking from "./handshaking.png"
-import teamImage from "./team_image.jpg"
+import teamImage from "./team_image.png"
 
 export {
     blackLogo,
@@ -62,28 +60,25 @@ export {
     distributorBackgroundImage,
     arrowUp,
     serviceMobileImage,
-    singleCarabaoDrink,
-    download_pack,
     coupleHoldingdrinks,
-    sugar,
     carabaoInfluencerImage,
     star,
     handshaking,
     one,
-    partner3,
     two,
-    cartImage,
     storeBackgroundImage,
+    realfounder,
     three,
     askamaya,
     ebeano,
     secretPalace,
+    singleCarabaoDrink,
     vodaBeach,
-    movement_one,
     movement_two,
     four,
     partner1,
     partner2,
+    partner3,
     journey,
     ritz,
     teamImage,
@@ -98,6 +93,7 @@ export {
     blenco,
     learnBackgroundImg,
     arrowDown,
+    sugar,
     arrowRight,
     map,
     arrowLeft,

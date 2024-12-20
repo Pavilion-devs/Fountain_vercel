@@ -15,9 +15,8 @@ const MenuOverlay: React.FC<MenuOverlayProps> = ({ isOpen, onClose }) => {
     { id: '01', label: 'OUR BRAND', path: '/brand' },
     { id: '02', label: 'OUR SHOP', path: '/shop' },
     { id: '03', label: 'OUR STORES', path: '/store' },
-    { id: '04', label: 'YOUR ACCOUNT', path: '/account' },
+    { id: '04', label: 'OUR DISTRIBUTOR', path: '/distributor' },
     { id: '05', label: 'YOUR CART', path: '/cart' },
-    { id: '06', label: 'CONTACT US', path: '/contact' },
   ];
 
   return (

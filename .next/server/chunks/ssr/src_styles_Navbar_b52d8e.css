@@ -41,7 +41,6 @@
   color: #fff;
   background-color: #0000;
   border: none;
-  cursor: pointer;
 }
 
 .navbar__cta-menu {
@@ -83,11 +82,16 @@
 }
 
 @media (width <= 480px) {
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
+  }
+
   .land-navbar {
     padding: 10px 15px;
   }
 
-  #user_icon {
+  #user_icon, #normalcart {
     display: none;
   }
 

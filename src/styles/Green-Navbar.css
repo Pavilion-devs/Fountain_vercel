@@ -42,6 +42,7 @@
     margin-right: 15px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
   }
   .navbar__cta-menu {
     display: none;
@@ -53,7 +54,6 @@
   .log-in{
     display: none;
   }
-
   
   .navbar__cta-img-normal {
     filter: brightness(0) contrast(100%);
@@ -73,9 +73,6 @@
     #user_icon{
       display: none;
     }
-    .navbar__cta-btn {
-      margin-right: 0px;
-    }
     .land-navbar-img{
       width: 150px;
       height: 35px;
@@ -83,22 +80,21 @@
   }
   @media(max-width: 480px){
     .land-navbar-img{
-      width: 140px;
+      width: 132px;
       height: 28.64px;
 
+    }
+    .navbar__cta-btn{
+      margin-right: 5px;
     }
     .normal-navbar{
       padding: 10px 15px;
     }
-    #user_icon{
+    #user_icon, #mycart{
       display: none;
     }
     .navbar__cta {
       display: flex;
       align-items: center;
-      gap: 10px;
-    }
-    .navbar__cta-btn {
-      margin-right: 0px;
     }
   }
