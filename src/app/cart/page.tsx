@@ -2,12 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import '../../styles/cart.modules.css';
-import Normalnavbar from '../Nav-menu/Navbar-Green';
-import Link from 'next/link';
-import Search from '@/icons/search';
-import User from '@/icons/user';
-import Menu from '@/icons/menu';
-import { blackLogo, cartImage } from '@/images';
+import { blackLogo} from '@/images';
 import Searchblack from '@/icons/search-black';
 import Userblack from '@/icons/userBlack';
 import Shoppingcartblack from '@/icons/shoppingCartBlack';
