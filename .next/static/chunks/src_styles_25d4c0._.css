@@ -139,6 +139,7 @@
   padding: 5px 10px;
   background-color: #0000;
   border: none;
+  color: #000;
   border-bottom: 2px solid #000;
   font-size: 24px;
 }
@@ -166,6 +167,7 @@
 }
 
 .shop__store_selection__content_product__counter__span {
+  color: #000;
   margin-top: 3px;
 }
 

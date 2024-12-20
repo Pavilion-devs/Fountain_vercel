@@ -2921,7 +2921,7 @@ const MenuOverlay = ({ isOpen, onClose })=>{
         {
             id: '01',
             label: 'OUR BRAND',
-            path: '/brand'
+            path: '/Brand'
         },
         {
             id: '02',

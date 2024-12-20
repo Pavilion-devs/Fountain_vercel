@@ -26,13 +26,18 @@
 .cart-names-identity a{
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 16px;
+    color: #000;
     font-weight: 600;
+}
+.cart{
+    background-color: #fff;
 }
 .cart_container h1{ 
     font-family: 'ClashDisplay';
     font-weight: 700;
     display: flex;
     align-items: center;
+    color: #000;
     gap: 12px;
     text-align: center;
     font-size: 32px;
@@ -43,6 +48,7 @@
 .cart_container p{
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 18px;
+    color: #000;
     text-align: center;
 }
 .cart_container a{
@@ -79,6 +85,7 @@
     z-index: 1000;
     display: flex;
     border-bottom: 1px solid #000;
+    background-color: #fff;
     padding: 20px 40px;
     align-items: center;
     justify-content: space-between;
@@ -93,6 +100,7 @@
 }
 .menu_btn{
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 .menu_btn p{
@@ -102,6 +110,9 @@
 }
 
 @media(max-width: 480px){
+    .normal_navbar{
+        padding: 15px 10px;
+    }
     .land-navbar-img{
         width: 132px;
         height: 28.64px;
