@@ -11,7 +11,7 @@ import { singleCarabaoDrink } from "@/images";
 
 const Shop = () => {
   const [quantity, setQuantity] = useState(3); // State to track quantity
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const pricePerUnit = 26000; // Set the price per unit product
 
   // Handlers for increment and decrement

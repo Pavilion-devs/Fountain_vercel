@@ -1,3 +1,8 @@
 {
-  "/shop/page": "app/shop/page.js"
+  "/distributor/page": "app/distributor/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/brand/carabao/page": "app/brand/carabao/page.js",
+  "/brand/page": "app/brand/page.js",
+  "/store/page": "app/store/page.js"
 }

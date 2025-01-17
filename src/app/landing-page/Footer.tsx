@@ -26,27 +26,27 @@ const Footer = () => {
                     <h1 className="footer-header">Contact Us</h1>
                     <div className="footer-location_content">
                         <span>+234-708-735-2090</span>
-                        <span>contact@fountain.ng</span>
+                        <a href="mailto:contact@fountain.ng">contact@fountain.ng</a>
                     </div>
                 </div>
                 <div className="footer-brand">
                     <h1 className="footer-header">Brand Info</h1>
                     <div className="footer-location_content">
-                        <span><a href="">OUR BRAND</a></span>
-                        <span><a href="">OUR SHOP</a></span>
-                        <span><a href="">CART</a></span>
-                        <span><a href="">OUR STORES</a></span>
-                        <span><a href="">ACCOUNT PROFILE</a></span>
+                        <span><a href="/brand">OUR BRAND</a></span>
+                        <span><a href="/shop">OUR SHOP</a></span>
+                        <span><a href="/cart">CART</a></span>
+                        <span><a href='/store'>OUR STORES</a></span>
+                        <span><a>ACCOUNT PROFILE</a></span>
                     </div>
                 </div>
                 <div className="footer-help">
                     <h1 className="footer-header">Help</h1>
                     <div className="footer-location_content">
-                        <span><a href="">FAQS</a></span>
-                        <span><a href="">CONTACT US</a></span>
-                        <span><a href="">SHIPPING</a></span>
-                        <span><a href="">PRIVACY POLICY</a></span>
-                        <span><a href="">TERMS & CONDITION</a></span>
+                        <span><a>FAQS</a></span>
+                        <span><a href="https://www.instagram.com/fountain.ng/?igsh=MWJldHZxemk2d3pkYw%3D%3D#" target="_blank">CONTACT US</a></span>
+                        <span><a>SHIPPING</a></span>
+                        <span><a>PRIVACY POLICY</a></span>
+                        <span><a>TERMS & CONDITION</a></span>
                     </div>
                 </div>
             </div>
@@ -55,10 +55,10 @@ const Footer = () => {
             <div className="footer-social_content">
                 <p>©Copyright 2024 Fountain, Inc.</p>
                 <div className="footer-socials">
-                    <span><a href="#"><Twitter className="special_social_icon"/></a></span>
-                    <span><a href="#"><LinkedIn className="special_social_icon"/></a></span>
-                    <span><a href=""><Instagram className="special_social_icon"/></a></span>
-                    <span><a href="#"><Internet className="special_social_icon"/></a></span>
+                    <span><a><Twitter className="special_social_icon"/></a></span>
+                    <span><a><LinkedIn className="special_social_icon"/></a></span>
+                    <span><a href="https://www.instagram.com/fountain.ng/?igsh=MWJldHZxemk2d3pkYw%3D%3D#" target="_blank"><Instagram className="special_social_icon"/></a></span>
+                    <span><a href="https://www.fountain.ng/"><Internet className="special_social_icon"/></a></span>
                 </div>
             </div>
         </div>

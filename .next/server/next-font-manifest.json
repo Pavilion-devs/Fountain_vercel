@@ -1,6 +1,10 @@
 {
   "app": {
-    "[project]/src/app/shop/page": []
+    "[project]/src/app/distributor/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/brand/carabao/page": [],
+    "[project]/src/app/brand/page": [],
+    "[project]/src/app/store/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

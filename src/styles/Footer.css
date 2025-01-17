@@ -46,7 +46,7 @@
     align-items: flex-start;
     gap: 15px;
 }
-.footer-location_content span{
+.footer-location_content span, .footer-location_content a{
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -147,7 +147,7 @@
         max-width: 150px;
 
     }
-    .footer-location_content span{
+    .footer-location_content span a, .footer-location_content span, .footer-location_content a{
         font-size: 12px;
         font-weight: 400;
     }

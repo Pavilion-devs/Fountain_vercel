@@ -100,7 +100,7 @@
   font-size: 20px;
 }
 
-.brand__about_content-text_1 {
+.brand__about_content-text_1, .brand__about_content-text_3 {
   color: #000;
 }
 
@@ -385,11 +385,11 @@
 .brand__movement_second, .brand__movement_first {
   width: 50%;
   position: relative;
-  font-weight: 480;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 640px;
 }
 
 .brand__movement_second_container, .brand__movement_first_container {
@@ -421,7 +421,7 @@
 .liner {
   width: 60px;
   height: 5px;
-  border: 3px solid #1c4e21;
+  border: 3px solid #40b44b;
   background-color: #0000;
 }
 
@@ -434,6 +434,7 @@
   font-size: 32px;
   font-weight: 480;
   line-height: 28px;
+  color: #fff;
   letter-spacing: .02em;
   text-align: left;
   text-underline-position: from-font;
@@ -444,23 +445,9 @@
   font-family: Montserrat Alternates;
   font-size: 18px;
   font-weight: 400;
+  color: #fff;
   line-height: 28px;
   letter-spacing: .02em;
-}
-
-.brand__movement_second:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/movement_2.8ec2810a.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(40%);
-  z-index: -1;
 }
 
 .movement_btn {

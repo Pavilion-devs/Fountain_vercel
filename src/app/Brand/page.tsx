@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
@@ -6,7 +7,6 @@ import imgfirst from "../../images/movement_1.png";
 import imgsecond from "../../images/movement_2.jpeg";
 import "../../styles/all-brands.css";
 import img from "../../images/brandBackgroundImage.jpeg";
-import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import {
   askamaya,
   blenco,
@@ -19,6 +19,7 @@ import {
   four,
   journey,
   libraryLogo,
+  movement_two,
   one,
   passion,
   realfounder,
@@ -32,8 +33,13 @@ import {
   vodaBeach,
 } from "@/images";
 import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
+import { useEffect } from "react";
 
 const Brand = () => {
+
+  useEffect(() => {
+    console.log("Image source:", imgsecond.src); // Check if this prints a valid path
+}, []);
   return (
     <section>
       <div className="brand">
@@ -245,21 +251,15 @@ const Brand = () => {
       {/* BRAND MOVEMENT */}
       <div className="brand__movement">
       <div className="brand__movement_second">
-          <div
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              filter: "brightness(50%)",
-              zIndex: -1, // Ensures it's behind content
-            }}
-          ></div>
+      <div style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, zIndex: -1 }}>
+  <Image
+    src={movement_two}
+    alt="Background"
+    layout="fill"
+    objectFit="cover"
+    style={{ filter: "brightness(50%)" }}
+  />
+</div>
           <div className="brand__movement_second_container">
             <div className="brand__movement_second_container_header">
               <span className="line"></span>
@@ -274,11 +274,15 @@ const Brand = () => {
                 explore how we can work together to fuel success.
               </p>
             </div>
-            <a href="/distributor" className="movement_btn">
-              JOIN THE MOVEMENT
-            </a>
+            <div className="movement_btn_div">
+              <a href="/distributor" className="movement_btn">
+                JOIN THE MOVEMENT
+              </a>
+            </div>
           </div>
         </div>
+
+
         <div className="brand__movement_first">
           <div
             style={{
@@ -287,7 +291,7 @@ const Brand = () => {
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundImage: `url(${imgfirst.src})`, // Correct way to reference the imported image
+              backgroundImage: `url(${imgfirst.src})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

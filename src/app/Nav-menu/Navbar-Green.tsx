@@ -40,9 +40,9 @@ const Normalnavbar = () => {
         <Link href="/cart" id="mycart" className="navbar__cta-btn">
           <Cart />
         </Link>
-        <Link href="#" className="navbar__cta-btn">
+        <a className="navbar__cta-btn">
           <User/>
-        </Link>
+        </a>
         <button 
             className="navbar__menu-btn"
             onClick={() => setIsMenuOpen(true)}

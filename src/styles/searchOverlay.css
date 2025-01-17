@@ -60,7 +60,8 @@
   color: white;
   border: none;
   padding: 10px 30px;
-  cursor: pointer;
+  cursor: default;
+  pointer-events: none;
   font-size: 16px;
   text-transform: uppercase;
   transition: background-color 0.3s ease;

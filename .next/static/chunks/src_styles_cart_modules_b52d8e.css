@@ -1,13 +1,19 @@
 /* [project]/src/styles/cart.modules.css [app-client] (css) */
+.cart-section {
+  background-color: #fff;
+}
+
 .cart {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
+  background-color: #fff;
   padding: 80px 30px;
 }
 
 .cart_container {
+  background-color: #fff;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -17,6 +23,7 @@
 }
 
 .cart-names-identity {
+  background-color: #fff;
   margin-top: 30px;
   margin-left: 30px;
   width: 100%;

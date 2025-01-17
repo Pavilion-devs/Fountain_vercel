@@ -17,9 +17,11 @@ const Cart = () => {
 
     return (
         <>
-        <section>
+        <section className="cart-section">
             <div className='normal_navbar'>
-                <Image src={blackLogo} className='land-navbar-img' alt=''/>
+                <a href="/">
+                    <Image src={blackLogo} className='land-navbar-img' alt=''/>
+                </a>
                 <div className='navbar_btn'>
                     <a href="" className='navbar_btn_a'><Searchblack/></a>
                     <a href="" className='navbar_btn_a'><Shoppingcartblack/></a>

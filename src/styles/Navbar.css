@@ -35,6 +35,7 @@ display: none;
 .navbar__cta-btn {
   transition: all 0.42s ease;
   color: #fff;
+  cursor: pointer;
   background-color: transparent;
   border: none;
 }

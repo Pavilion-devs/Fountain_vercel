@@ -74,13 +74,6 @@ const Carabao = () => {
           <a href="/store" className="carabao-names-identity_special">
             STORES
           </a>
-          <p className="carabao-names-identity_special">
-            {" "}
-            <NormalArrowLeftt />
-          </p>
-          <a href="/brand/carabao" className="carabao-names-identity_special">
-            CARABAO
-          </a>
         </div>
       </div>
 

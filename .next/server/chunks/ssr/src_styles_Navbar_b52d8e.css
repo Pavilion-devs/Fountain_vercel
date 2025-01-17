@@ -39,6 +39,7 @@
 .navbar__cta-btn {
   transition: all .42s;
   color: #fff;
+  cursor: pointer;
   background-color: #0000;
   border: none;
 }
