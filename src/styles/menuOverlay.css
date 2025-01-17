@@ -90,3 +90,10 @@
     width: 24px;
     height: 24px;
   }
+
+  @media (max-width: 480px){
+    .menu-overlay__link{
+      font-size: 18px;
+      color: #fff;
+    }
+  }
