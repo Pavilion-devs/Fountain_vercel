@@ -147,6 +147,10 @@
         max-width: 150px;
 
     }
+    .footer-container_logo_img{
+        width: 142px;
+        height: 35px;
+    }
     .footer-location_content span a, .footer-location_content span, .footer-location_content a{
         font-size: 12px;
         font-weight: 400;
