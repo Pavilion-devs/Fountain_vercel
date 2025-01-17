@@ -38,7 +38,7 @@ const Cart = () => {
                 <div className="cart-names-identity">
                     <a href="/cart" className=''>SHOPPING CART</a>
                     <p>&gt;</p>
-                    <a href="/">CHECKOUT</a>
+                    <a href="/shop">CHECKOUT</a>
                 </div>
             </div>
             <div className="cart">
