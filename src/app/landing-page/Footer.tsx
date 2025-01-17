@@ -13,7 +13,7 @@ const Footer = () => {
     <section className="footer">
         <div className="footer-container">
             <div>
-                <Image src={whiteLogo} width={220} height={48} alt="Fountain logo"/>
+                <Image src={whiteLogo} className="footer-container_logo_img" width={220} height={48} alt="Fountain logo"/>
             </div>
             <div className="footer_container_content">
                 <div className="footer-location">
