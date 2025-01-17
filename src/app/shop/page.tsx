@@ -58,7 +58,6 @@ const Shop = () => {
           <div className="shop__store_selection__content">
             <h1 className="shop__store_selection__content-title">CATEGORIES</h1>
             <p className="shop_special">ALL PRODUCTS</p>
-            <p className="shop__store_selection__content-text">CARABAO</p>
           </div>
           <div className="shop__store_selection__content_product">
             <Image
@@ -89,10 +88,6 @@ const Shop = () => {
                   </button>
                   <span
                   className="shop__store_selection__content_product__counter__span"
-                    style={{
-                      fontSize: "20px",
-                      fontWeight: "bold",
-                    }}
                   >
                     {quantity}
                   </span>
@@ -153,3 +148,4 @@ const Shop = () => {
 };
 
 export default Shop;
+
