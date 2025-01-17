@@ -70,11 +70,11 @@
   /* Responsive Design */
   @media (max-width: 480px) {
     .not-found-title {
-      font-size: 80px;
+      font-size: 43px;
     }
     
     .not-found-subtitle {
-      font-size: 24px;
+      font-size: 20px;
     }
     
     .not-found-content {
